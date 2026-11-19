@@ -1,0 +1,191 @@
+{
+ "test_accuracy": {
+  "k-NN raw pixels": 0.9699,
+  "logistic regression": 0.9249,
+  "CNN": 0.9909,
+  "CNN + augmentation": 0.9896
+ },
+ "errors": {
+  "k-NN raw pixels": 301,
+  "logistic regression": 751,
+  "CNN": 91,
+  "CNN + augmentation": 104
+ },
+ "ece_cnn": 0.0025399102240800686,
+ "robustness": [
+  {
+   "test": "rotation (deg)",
+   "level": "-45",
+   "CNN": 47.24,
+   "CNN + augmentation": 57.9
+  },
+  {
+   "test": "rotation (deg)",
+   "level": "-30",
+   "CNN": 80.06,
+   "CNN + augmentation": 89.39
+  },
+  {
+   "test": "rotation (deg)",
+   "level": "-15",
+   "CNN": 96.97,
+   "CNN + augmentation": 98.13
+  },
+  {
+   "test": "rotation (deg)",
+   "level": "0",
+   "CNN": 99.09,
+   "CNN + augmentation": 98.96
+  },
+  {
+   "test": "rotation (deg)",
+   "level": "15",
+   "CNN": 97.0,
+   "CNN + augmentation": 98.02
+  },
+  {
+   "test": "rotation (deg)",
+   "level": "30",
+   "CNN": 85.36,
+   "CNN + augmentation": 90.41
+  },
+  {
+   "test": "rotation (deg)",
+   "level": "45",
+   "CNN": 55.53,
+   "CNN + augmentation": 63.64
+  },
+  {
+   "test": "horizontal shift (px)",
+   "level": "-6",
+   "CNN": 29.53,
+   "CNN + augmentation": 63.56
+  },
+  {
+   "test": "horizontal shift (px)",
+   "level": "-4",
+   "CNN": 69.37,
+   "CNN + augmentation": 94.38
+  },
+  {
+   "test": "horizontal shift (px)",
+   "level": "-2",
+   "CNN": 96.72,
+   "CNN + augmentation": 98.46
+  },
+  {
+   "test": "horizontal shift (px)",
+   "level": "0",
+   "CNN": 99.09,
+   "CNN + augmentation": 98.96
+  },
+  {
+   "test": "horizontal shift (px)",
+   "level": "2",
+   "CNN": 96.14,
+   "CNN + augmentation": 98.51
+  },
+  {
+   "test": "horizontal shift (px)",
+   "level": "4",
+   "CNN": 69.71,
+   "CNN + augmentation": 94.83
+  },
+  {
+   "test": "horizontal shift (px)",
+   "level": "6",
+   "CNN": 35.97,
+   "CNN + augmentation": 67.79
+  },
+  {
+   "test": "gaussian noise sd",
+   "level": "0",
+   "CNN": 99.09,
+   "CNN + augmentation": 98.96
+  },
+  {
+   "test": "gaussian noise sd",
+   "level": "0.1",
+   "CNN": 98.95,
+   "CNN + augmentation": 98.9
+  },
+  {
+   "test": "gaussian noise sd",
+   "level": "0.2",
+   "CNN": 98.3,
+   "CNN + augmentation": 96.43
+  },
+  {
+   "test": "gaussian noise sd",
+   "level": "0.3",
+   "CNN": 95.36,
+   "CNN + augmentation": 71.05
+  },
+  {
+   "test": "gaussian noise sd",
+   "level": "0.5",
+   "CNN": 46.13,
+   "CNN + augmentation": 20.76
+  },
+  {
+   "test": "scale",
+   "level": "0.6",
+   "CNN": 82.41,
+   "CNN + augmentation": 88.66
+  },
+  {
+   "test": "scale",
+   "level": "0.8",
+   "CNN": 98.23,
+   "CNN + augmentation": 98.55
+  },
+  {
+   "test": "scale",
+   "level": "1.0",
+   "CNN": 99.09,
+   "CNN + augmentation": 98.96
+  },
+  {
+   "test": "scale",
+   "level": "1.2",
+   "CNN": 97.85,
+   "CNN + augmentation": 98.53
+  },
+  {
+   "test": "scale",
+   "level": "1.4",
+   "CNN": 91.56,
+   "CNN + augmentation": 96.85
+  },
+  {
+   "test": "stroke",
+   "level": "thinner",
+   "CNN": 58.93,
+   "CNN + augmentation": 55.1
+  },
+  {
+   "test": "stroke",
+   "level": "normal",
+   "CNN": 99.09,
+   "CNN + augmentation": 98.96
+  },
+  {
+   "test": "stroke",
+   "level": "thicker",
+   "CNN": 96.01,
+   "CNN + augmentation": 93.23
+  },
+  {
+   "test": "stroke",
+   "level": "much thicker",
+   "CNN": 81.55,
+   "CNN + augmentation": 57.93
+  },
+  {
+   "test": "colours",
+   "level": "inverted",
+   "CNN": 29.58,
+   "CNN + augmentation": 13.08
+  }
+ ]
+}

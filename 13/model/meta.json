@@ -1,0 +1,32 @@
+{
+ "setup": {
+  "official split (by date), headers/footers/quotes removed": 70.3,
+  "RANDOM 80/20 split (the reference's), removed": 75.8,
+  "official split, headers/footers/quotes KEPT": 85.7,
+  "random 80/20 split, KEPT": 93.3
+ },
+ "test": {
+  "MiniLM embeddings + LR": {
+   "accuracy_%": 65.401,
+   "macro_F1": 0.643
+  },
+  "DistilBERT fine-tuned (6,000 posts, 128 tokens)": {
+   "accuracy_%": 66.742,
+   "macro_F1": 0.644
+  },
+  "TF-IDF + LR, 6,000-post subset": {
+   "accuracy_%": 67.552,
+   "macro_F1": 0.663
+  },
+  "TF-IDF + logistic regression": {
+   "accuracy_%": 70.26,
+   "macro_F1": 0.692
+  },
+  "TF-IDF + linear SVM": {
+   "accuracy_%": 70.619,
+   "macro_F1": 0.694
+  }
+ },
+ "train_seconds_distilbert": 7488,
+ "predict_seconds_distilbert_7532": 787
+}

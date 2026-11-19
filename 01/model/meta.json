@@ -1,0 +1,93 @@
+{
+ "features": [
+  "DrivAge",
+  "VehPower",
+  "VehAge",
+  "BonusMalus",
+  "LogDensity",
+  "Area",
+  "VehBrand",
+  "VehGas",
+  "Region"
+ ],
+ "overall_freq": 0.1006138781922095,
+ "categories": {
+  "Area": [
+   "A",
+   "B",
+   "C",
+   "D",
+   "E",
+   "F"
+  ],
+  "VehBrand": [
+   "B1",
+   "B10",
+   "B11",
+   "B12",
+   "B13",
+   "B14",
+   "B2",
+   "B3",
+   "B4",
+   "B5",
+   "B6"
+  ],
+  "VehGas": [
+   "Diesel",
+   "Regular"
+  ],
+  "Region": [
+   "R11",
+   "R21",
+   "R22",
+   "R23",
+   "R24",
+   "R25",
+   "R26",
+   "R31",
+   "R41",
+   "R42",
+   "R43",
+   "R52",
+   "R53",
+   "R54",
+   "R72",
+   "R73",
+   "R74",
+   "R82",
+   "R83",
+   "R91",
+   "R93",
+   "R94"
+  ]
+ },
+ "ranges": {
+  "DrivAge": [
+   18.0,
+   90.0
+  ],
+  "VehAge": [
+   0.0,
+   20.0
+  ],
+  "VehPower": [
+   4.0,
+   9.0
+  ],
+  "BonusMalus": [
+   50.0,
+   150.0
+  ],
+  "Density": [
+   1.0,
+   27000.0
+  ]
+ },
+ "test_deviance": {
+  "Constant (portfolio mean)": 0.6274,
+  "Poisson GLM": 0.6078,
+  "Richer Poisson GLM": 0.5976,
+  "Gradient boosting (Poisson loss)": 0.5783
+ }
+}

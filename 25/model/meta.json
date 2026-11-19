@@ -1,0 +1,134 @@
+{
+ "rule_k": 0.25,
+ "bins": [
+  [
+   -0.8,
+   0.7999999999999998
+  ],
+  [
+   -1.0,
+   1.0
+  ],
+  [
+   -0.175,
+   -0.14,
+   -0.10500000000000001,
+   -0.07,
+   -0.035,
+   -2.7755575615628914e-17,
+   0.034999999999999976,
+   0.06999999999999998,
+   0.10499999999999995,
+   0.13999999999999999,
+   0.17499999999999996
+  ],
+  [
+   -2.9166666666666665,
+   -2.333333333333333,
+   -1.75,
+   -1.1666666666666665,
+   -0.583333333333333,
+   0.0,
+   0.5833333333333339,
+   1.166666666666667,
+   1.75,
+   2.333333333333334,
+   2.916666666666667
+  ]
+ ],
+ "final": [
+  {
+   "learner": "Q-learning",
+   "seed": 0,
+   "final mean (100 ep.)": 500.0,
+   "sd": 0.0,
+   "% episodes at 500": 100.0,
+   "best periodic test": 500.0,
+   "% of 2nd-half tests >= 475": 30.0
+  },
+  {
+   "learner": "Q-learning",
+   "seed": 1,
+   "final mean (100 ep.)": 218.06,
+   "sd": 54.61,
+   "% episodes at 500": 0.0,
+   "best periodic test": 471.7,
+   "% of 2nd-half tests >= 475": 0.0
+  },
+  {
+   "learner": "Q-learning",
+   "seed": 2,
+   "final mean (100 ep.)": 485.64,
+   "sd": 45.82,
+   "% episodes at 500": 86.0,
+   "best periodic test": 500.0,
+   "% of 2nd-half tests >= 475": 27.5
+  },
+  {
+   "learner": "DQN",
+   "seed": 0,
+   "final mean (100 ep.)": 500.0,
+   "sd": 0.0,
+   "% episodes at 500": 100.0,
+   "best periodic test": 500.0,
+   "% of 2nd-half tests >= 475": 40.0
+  },
+  {
+   "learner": "DQN",
+   "seed": 1,
+   "final mean (100 ep.)": 500.0,
+   "sd": 0.0,
+   "% episodes at 500": 100.0,
+   "best periodic test": 500.0,
+   "% of 2nd-half tests >= 475": 40.0
+  },
+  {
+   "learner": "DQN",
+   "seed": 2,
+   "final mean (100 ep.)": 500.0,
+   "sd": 0.0,
+   "% episodes at 500": 100.0,
+   "best periodic test": 500.0,
+   "% of 2nd-half tests >= 475": 53.33
+  }
+ ],
+ "robustness": {
+  "normal": {
+   "random": 24.0,
+   "rule B (k=0.25)": 500.0,
+   "Q-learning": 500.0,
+   "DQN": 500.0
+  },
+  "gravity x1.5": {
+   "random": 23.3,
+   "rule B (k=0.25)": 500.0,
+   "Q-learning": 500.0,
+   "DQN": 500.0
+  },
+  "pole x2 longer": {
+   "random": 30.6,
+   "rule B (k=0.25)": 500.0,
+   "Q-learning": 491.2,
+   "DQN": 498.4
+  },
+  "pole x0.5 shorter": {
+   "random": 13.2,
+   "rule B (k=0.25)": 500.0,
+   "Q-learning": 500.0,
+   "DQN": 500.0
+  },
+  "push x0.7": {
+   "random": 27.3,
+   "rule B (k=0.25)": 500.0,
+   "Q-learning": 500.0,
+   "DQN": 500.0
+  },
+  "pole mass x3": {
+   "random": 24.9,
+   "rule B (k=0.25)": 500.0,
+   "Q-learning": 500.0,
+   "DQN": 500.0
+  }
+ },
+ "random_mean": 23.18
+}

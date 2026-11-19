@@ -1,0 +1,96 @@
+{
+ "topics": [
+  "Photosynthesis",
+  "Blockchain",
+  "Climate change",
+  "Machine learning",
+  "Vaccine",
+  "Solar power",
+  "Black hole",
+  "Antibiotic",
+  "Electric vehicle",
+  "Great Wall of China",
+  "French Revolution",
+  "Coffee"
+ ],
+ "verifier": "cross-encoder/nli-MiniLM2-L6-H768",
+ "judge": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+ "writer": "sshleifer/distilbart-cnn-6-6",
+ "verifier_planted": {
+  "genuine sentence": {
+   "n": 36,
+   "mean_p": 0.379,
+   "flagged_pct": 63.889,
+   "mean_p_judge": 0.992,
+   "judge_flagged_pct": 0.0
+  },
+  "name swapped": {
+   "n": 7,
+   "mean_p": 0.118,
+   "flagged_pct": 85.714,
+   "mean_p_judge": 0.005,
+   "judge_flagged_pct": 100.0
+  },
+  "negation inserted": {
+   "n": 30,
+   "mean_p": 0.046,
+   "flagged_pct": 96.667,
+   "mean_p_judge": 0.002,
+   "judge_flagged_pct": 100.0
+  },
+  "number changed": {
+   "n": 2,
+   "mean_p": 0.003,
+   "flagged_pct": 100.0,
+   "mean_p_judge": 0.001,
+   "judge_flagged_pct": 100.0
+  },
+  "off-topic sentence": {
+   "n": 36,
+   "mean_p": 0.061,
+   "flagged_pct": 97.222,
+   "mean_p_judge": 0.216,
+   "judge_flagged_pct": 83.333
+  }
+ },
+ "system": {
+  "abstractive": {
+   "sentences": 136,
+   "unsupported_pct": 0.74,
+   "new_number_pct": 0.0,
+   "mean_p_judge": 0.98,
+   "replaced_pct": 0.0,
+   "words_per_sentence": 17.93
+  },
+  "abstractive + verifier guard": {
+   "sentences": 136,
+   "unsupported_pct": 1.47,
+   "new_number_pct": 0.0,
+   "mean_p_judge": 0.98,
+   "replaced_pct": 56.62,
+   "words_per_sentence": 20.25
+  },
+  "extractive": {
+   "sentences": 120,
+   "unsupported_pct": 2.5,
+   "new_number_pct": 0.0,
+   "mean_p_judge": 0.97,
+   "replaced_pct": 0.0,
+   "words_per_sentence": 24.56
+  }
+ },
+ "ci": {
+  "extractive": [
+   0.0,
+   5.83
+  ],
+  "abstractive": [
+   0.0,
+   2.21
+  ],
+  "abstractive + verifier guard": [
+   0.0,
+   3.68
+  ]
+ }
+}

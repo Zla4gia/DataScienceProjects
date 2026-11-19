@@ -1,0 +1,1073 @@
+{
+ "elasticity": 0.007878691426393747,
+ "ci": [
+  -0.0346935947217118,
+  0.050450977574499296
+ ],
+ "cross_price": -0.03994053752252524,
+ "items": {
+  "item_1": {
+   "price_mean": 103.92539999999997,
+   "qty_mean": 409.14,
+   "price_min": 99.04,
+   "price_max": 109.01
+  },
+  "item_11": {
+   "price_mean": 199.97920000000002,
+   "qty_mean": 477.5,
+   "price_min": 189.37,
+   "price_max": 208.63
+  },
+  "item_117": {
+   "price_mean": 54.3304,
+   "qty_mean": 435.26,
+   "price_min": 52.04,
+   "price_max": 57.44
+  },
+  "item_119": {
+   "price_mean": 105.87599999999999,
+   "qty_mean": 483.6,
+   "price_min": 100.54,
+   "price_max": 110.73
+  },
+  "item_125": {
+   "price_mean": 293.16020000000003,
+   "qty_mean": 301.32,
+   "price_min": 278.54,
+   "price_max": 306.07
+  },
+  "item_128": {
+   "price_mean": 83.42479999999999,
+   "qty_mean": 417.28,
+   "price_min": 79.07,
+   "price_max": 87.02
+  },
+  "item_137": {
+   "price_mean": 142.33620000000002,
+   "qty_mean": 422.82,
+   "price_min": 135.85,
+   "price_max": 149.68
+  },
+  "item_139": {
+   "price_mean": 72.5482,
+   "qty_mean": 395.46,
+   "price_min": 68.89,
+   "price_max": 76.05
+  },
+  "item_150": {
+   "price_mean": 110.95380000000003,
+   "qty_mean": 356.76,
+   "price_min": 105.09,
+   "price_max": 115.96
+  },
+  "item_152": {
+   "price_mean": 105.60359999999999,
+   "qty_mean": 329.88,
+   "price_min": 100.53,
+   "price_max": 110.58
+  },
+  "item_154": {
+   "price_mean": 78.2728,
+   "qty_mean": 453.64,
+   "price_min": 74.68,
+   "price_max": 82.24
+  },
+  "item_156": {
+   "price_mean": 60.722199999999994,
+   "qty_mean": 320.3,
+   "price_min": 57.63,
+   "price_max": 63.49
+  },
+  "item_164": {
+   "price_mean": 278.2564,
+   "qty_mean": 308.64,
+   "price_min": 265.53,
+   "price_max": 292.23
+  },
+  "item_167": {
+   "price_mean": 109.215,
+   "qty_mean": 449.32,
+   "price_min": 103.88,
+   "price_max": 114.58
+  },
+  "item_169": {
+   "price_mean": 209.61659999999995,
+   "qty_mean": 348.98,
+   "price_min": 198.19,
+   "price_max": 218.75
+  },
+  "item_174": {
+   "price_mean": 176.2268,
+   "qty_mean": 303.04,
+   "price_min": 167.87,
+   "price_max": 184.74
+  },
+  "item_176": {
+   "price_mean": 50.05340000000001,
+   "qty_mean": 379.4,
+   "price_min": 47.7,
+   "price_max": 52.66
+  },
+  "item_18": {
+   "price_mean": 135.2822,
+   "qty_mean": 305.68,
+   "price_min": 129.09,
+   "price_max": 142.35
+  },
+  "item_183": {
+   "price_mean": 138.93300000000002,
+   "qty_mean": 306.84,
+   "price_min": 132.53,
+   "price_max": 145.69
+  },
+  "item_2": {
+   "price_mean": 148.0366,
+   "qty_mean": 406.82,
+   "price_min": 140.77,
+   "price_max": 154.09
+  },
+  "item_20": {
+   "price_mean": 105.13660000000002,
+   "qty_mean": 368.32,
+   "price_min": 99.65,
+   "price_max": 109.95
+  },
+  "item_208": {
+   "price_mean": 97.5768,
+   "qty_mean": 322.54,
+   "price_min": 93.03,
+   "price_max": 101.38
+  },
+  "item_210": {
+   "price_mean": 137.34140000000002,
+   "qty_mean": 395.2,
+   "price_min": 130.69,
+   "price_max": 144.28
+  },
+  "item_214": {
+   "price_mean": 148.2921,
+   "qty_mean": 394.58,
+   "price_min": 139.44,
+   "price_max": 155.57
+  },
+  "item_250": {
+   "price_mean": 92.67400000000002,
+   "qty_mean": 329.62,
+   "price_min": 87.76,
+   "price_max": 96.9
+  },
+  "item_251": {
+   "price_mean": 294.56360000000006,
+   "qty_mean": 336.6,
+   "price_min": 281.46,
+   "price_max": 309.14
+  },
+  "item_258": {
+   "price_mean": 110.99959999999999,
+   "qty_mean": 438.04,
+   "price_min": 105.62,
+   "price_max": 116.36
+  },
+  "item_259": {
+   "price_mean": 156.67860000000002,
+   "qty_mean": 430.3,
+   "price_min": 148.57,
+   "price_max": 163.68
+  },
+  "item_26": {
+   "price_mean": 152.5624,
+   "qty_mean": 388.08,
+   "price_min": 145.97,
+   "price_max": 159.73
+  },
+  "item_278": {
+   "price_mean": 294.31,
+   "qty_mean": 302.78,
+   "price_min": 280.47,
+   "price_max": 309.02
+  },
+  "item_28": {
+   "price_mean": 117.14680000000003,
+   "qty_mean": 409.0,
+   "price_min": 111.74,
+   "price_max": 122.52
+  },
+  "item_282": {
+   "price_mean": 190.93779999999998,
+   "qty_mean": 345.88,
+   "price_min": 181.42,
+   "price_max": 199.92
+  },
+  "item_283": {
+   "price_mean": 231.8944,
+   "qty_mean": 356.56,
+   "price_min": 220.29,
+   "price_max": 243.01
+  },
+  "item_286": {
+   "price_mean": 195.67309999999998,
+   "qty_mean": 412.71,
+   "price_min": 168.6,
+   "price_max": 226.45
+  },
+  "item_288": {
+   "price_mean": 118.52259999999998,
+   "qty_mean": 383.74,
+   "price_min": 112.77,
+   "price_max": 124.33
+  },
+  "item_29": {
+   "price_mean": 243.02229999999997,
+   "qty_mean": 374.05,
+   "price_min": 229.34,
+   "price_max": 254.41
+  },
+  "item_294": {
+   "price_mean": 165.97940000000003,
+   "qty_mean": 443.78,
+   "price_min": 158.31,
+   "price_max": 174.31
+  },
+  "item_298": {
+   "price_mean": 240.2282,
+   "qty_mean": 343.84,
+   "price_min": 228.6,
+   "price_max": 252.15
+  },
+  "item_3": {
+   "price_mean": 80.729,
+   "qty_mean": 356.3,
+   "price_min": 76.76,
+   "price_max": 84.54
+  },
+  "item_300": {
+   "price_mean": 134.79590000000002,
+   "qty_mean": 411.0,
+   "price_min": 93.85,
+   "price_max": 178.97
+  },
+  "item_325": {
+   "price_mean": 117.2906,
+   "qty_mean": 328.76,
+   "price_min": 111.29,
+   "price_max": 122.41
+  },
+  "item_331": {
+   "price_mean": 253.16219999999993,
+   "qty_mean": 356.84,
+   "price_min": 240.56,
+   "price_max": 264.62
+  },
+  "item_335": {
+   "price_mean": 210.77439999999999,
+   "qty_mean": 470.1,
+   "price_min": 199.77,
+   "price_max": 219.73
+  },
+  "item_338": {
+   "price_mean": 109.97880000000004,
+   "qty_mean": 466.48,
+   "price_min": 104.87,
+   "price_max": 115.52
+  },
+  "item_339": {
+   "price_mean": 127.25209999999997,
+   "qty_mean": 422.79,
+   "price_min": 116.86,
+   "price_max": 138.01
+  },
+  "item_342": {
+   "price_mean": 194.11879999999996,
+   "qty_mean": 309.46,
+   "price_min": 184.51,
+   "price_max": 203.41
+  },
+  "item_35": {
+   "price_mean": 166.17310000000006,
+   "qty_mean": 454.05,
+   "price_min": 79.52,
+   "price_max": 261.84
+  },
+  "item_357": {
+   "price_mean": 151.25539999999998,
+   "qty_mean": 447.38,
+   "price_min": 144.57,
+   "price_max": 159.23
+  },
+  "item_358": {
+   "price_mean": 292.58,
+   "qty_mean": 353.28,
+   "price_min": 276.59,
+   "price_max": 304.38
+  },
+  "item_359": {
+   "price_mean": 77.5526,
+   "qty_mean": 339.82,
+   "price_min": 74.03,
+   "price_max": 81.17
+  },
+  "item_365": {
+   "price_mean": 174.39149999999998,
+   "qty_mean": 347.58,
+   "price_min": 97.01,
+   "price_max": 259.07
+  },
+  "item_369": {
+   "price_mean": 56.7558,
+   "qty_mean": 466.42,
+   "price_min": 54.04,
+   "price_max": 59.11
+  },
+  "item_375": {
+   "price_mean": 288.59860000000003,
+   "qty_mean": 402.52,
+   "price_min": 273.92,
+   "price_max": 301.65
+  },
+  "item_382": {
+   "price_mean": 84.84020000000001,
+   "qty_mean": 405.12,
+   "price_min": 80.81,
+   "price_max": 89.13
+  },
+  "item_391": {
+   "price_mean": 229.7585,
+   "qty_mean": 386.04,
+   "price_min": 192.76,
+   "price_max": 268.8
+  },
+  "item_396": {
+   "price_mean": 279.225,
+   "qty_mean": 338.12,
+   "price_min": 265.56,
+   "price_max": 293.46
+  },
+  "item_4": {
+   "price_mean": 149.2064,
+   "qty_mean": 344.42,
+   "price_min": 141.24,
+   "price_max": 155.87
+  },
+  "item_400": {
+   "price_mean": 139.755,
+   "qty_mean": 443.86,
+   "price_min": 132.64,
+   "price_max": 145.25
+  },
+  "item_403": {
+   "price_mean": 270.2084,
+   "qty_mean": 385.2,
+   "price_min": 256.86,
+   "price_max": 281.93
+  },
+  "item_41": {
+   "price_mean": 183.08100000000002,
+   "qty_mean": 311.62,
+   "price_min": 174.6,
+   "price_max": 192.24
+  },
+  "item_410": {
+   "price_mean": 232.19639999999998,
+   "qty_mean": 420.48,
+   "price_min": 217.65,
+   "price_max": 239.88
+  },
+  "item_414": {
+   "price_mean": 180.8396,
+   "qty_mean": 344.5,
+   "price_min": 171.66,
+   "price_max": 189.08
+  },
+  "item_415": {
+   "price_mean": 142.2242,
+   "qty_mean": 458.1,
+   "price_min": 134.93,
+   "price_max": 148.28
+  },
+  "item_418": {
+   "price_mean": 55.94959999999999,
+   "qty_mean": 366.26,
+   "price_min": 53.36,
+   "price_max": 58.47
+  },
+  "item_424": {
+   "price_mean": 67.3668,
+   "qty_mean": 408.9,
+   "price_min": 64.03,
+   "price_max": 70.75
+  },
+  "item_427": {
+   "price_mean": 227.225,
+   "qty_mean": 459.79,
+   "price_min": 214.26,
+   "price_max": 239.21
+  },
+  "item_437": {
+   "price_mean": 273.0518,
+   "qty_mean": 394.42,
+   "price_min": 260.19,
+   "price_max": 286.06
+  },
+  "item_441": {
+   "price_mean": 241.66639999999998,
+   "qty_mean": 345.94,
+   "price_min": 227.89,
+   "price_max": 251.29
+  },
+  "item_442": {
+   "price_mean": 121.0844,
+   "qty_mean": 310.56,
+   "price_min": 115.08,
+   "price_max": 126.06
+  },
+  "item_444": {
+   "price_mean": 250.43959999999998,
+   "qty_mean": 432.86,
+   "price_min": 238.34,
+   "price_max": 263.18
+  },
+  "item_450": {
+   "price_mean": 220.03379999999999,
+   "qty_mean": 464.9,
+   "price_min": 209.65,
+   "price_max": 231.44
+  },
+  "item_459": {
+   "price_mean": 154.4652,
+   "qty_mean": 431.26,
+   "price_min": 146.28,
+   "price_max": 161.44
+  },
+  "item_469": {
+   "price_mean": 278.1598,
+   "qty_mean": 413.78,
+   "price_min": 264.22,
+   "price_max": 291.53
+  },
+  "item_470": {
+   "price_mean": 234.8468,
+   "qty_mean": 476.62,
+   "price_min": 223.86,
+   "price_max": 246.59
+  },
+  "item_487": {
+   "price_mean": 283.50960000000003,
+   "qty_mean": 356.64,
+   "price_min": 271.7,
+   "price_max": 299.66
+  },
+  "item_488": {
+   "price_mean": 185.0912,
+   "qty_mean": 376.18,
+   "price_min": 177.29,
+   "price_max": 194.61
+  },
+  "item_490": {
+   "price_mean": 92.87639999999999,
+   "qty_mean": 438.72,
+   "price_min": 73.74,
+   "price_max": 113.82
+  },
+  "item_501": {
+   "price_mean": 184.0916,
+   "qty_mean": 442.72,
+   "price_min": 176.38,
+   "price_max": 193.96
+  },
+  "item_507": {
+   "price_mean": 62.0826,
+   "qty_mean": 490.62,
+   "price_min": 59.08,
+   "price_max": 65.21
+  },
+  "item_511": {
+   "price_mean": 165.945,
+   "qty_mean": 464.46,
+   "price_min": 157.78,
+   "price_max": 173.61
+  },
+  "item_516": {
+   "price_mean": 145.3138,
+   "qty_mean": 436.14,
+   "price_min": 138.93,
+   "price_max": 153.0
+  },
+  "item_518": {
+   "price_mean": 202.05720000000002,
+   "qty_mean": 496.94,
+   "price_min": 193.24,
+   "price_max": 211.94
+  },
+  "item_520": {
+   "price_mean": 136.6138,
+   "qty_mean": 493.98,
+   "price_min": 129.59,
+   "price_max": 142.93
+  },
+  "item_521": {
+   "price_mean": 76.1472,
+   "qty_mean": 325.0,
+   "price_min": 72.64,
+   "price_max": 80.11
+  },
+  "item_526": {
+   "price_mean": 132.1098,
+   "qty_mean": 444.54,
+   "price_min": 125.67,
+   "price_max": 138.67
+  },
+  "item_53": {
+   "price_mean": 140.9134,
+   "qty_mean": 470.42,
+   "price_min": 134.0,
+   "price_max": 147.36
+  },
+  "item_539": {
+   "price_mean": 226.6342,
+   "qty_mean": 322.38,
+   "price_min": 215.34,
+   "price_max": 237.33
+  },
+  "item_540": {
+   "price_mean": 106.42580000000002,
+   "qty_mean": 491.16,
+   "price_min": 101.82,
+   "price_max": 112.08
+  },
+  "item_543": {
+   "price_mean": 145.1951,
+   "qty_mean": 372.45,
+   "price_min": 92.24,
+   "price_max": 202.88
+  },
+  "item_56": {
+   "price_mean": 84.0566,
+   "qty_mean": 372.94,
+   "price_min": 80.35,
+   "price_max": 88.59
+  },
+  "item_564": {
+   "price_mean": 233.70060000000004,
+   "qty_mean": 309.18,
+   "price_min": 222.91,
+   "price_max": 244.87
+  },
+  "item_569": {
+   "price_mean": 67.7092,
+   "qty_mean": 471.78,
+   "price_min": 64.36,
+   "price_max": 70.77
+  },
+  "item_580": {
+   "price_mean": 236.315,
+   "qty_mean": 344.92,
+   "price_min": 225.08,
+   "price_max": 247.07
+  },
+  "item_590": {
+   "price_mean": 174.36000000000004,
+   "qty_mean": 455.94,
+   "price_min": 165.94,
+   "price_max": 182.43
+  },
+  "item_6": {
+   "price_mean": 217.4296,
+   "qty_mean": 305.62,
+   "price_min": 154.47,
+   "price_max": 284.79
+  },
+  "item_600": {
+   "price_mean": 148.65640000000002,
+   "qty_mean": 465.3,
+   "price_min": 141.56,
+   "price_max": 155.73
+  },
+  "item_605": {
+   "price_mean": 212.47380000000004,
+   "qty_mean": 349.32,
+   "price_min": 202.89,
+   "price_max": 223.02
+  },
+  "item_62": {
+   "price_mean": 144.543,
+   "qty_mean": 401.59,
+   "price_min": 81.5,
+   "price_max": 214.1
+  },
+  "item_620": {
+   "price_mean": 275.668,
+   "qty_mean": 332.82,
+   "price_min": 263.08,
+   "price_max": 287.87
+  },
+  "item_621": {
+   "price_mean": 74.6748,
+   "qty_mean": 454.96,
+   "price_min": 71.13,
+   "price_max": 78.28
+  },
+  "item_63": {
+   "price_mean": 131.78740000000002,
+   "qty_mean": 373.2,
+   "price_min": 125.94,
+   "price_max": 138.89
+  },
+  "item_631": {
+   "price_mean": 164.65240000000003,
+   "qty_mean": 311.48,
+   "price_min": 157.61,
+   "price_max": 173.2
+  },
+  "item_635": {
+   "price_mean": 197.10300000000004,
+   "qty_mean": 331.94,
+   "price_min": 188.11,
+   "price_max": 207.0
+  },
+  "item_636": {
+   "price_mean": 213.364,
+   "qty_mean": 349.74,
+   "price_min": 203.02,
+   "price_max": 223.88
+  },
+  "item_643": {
+   "price_mean": 173.61079999999998,
+   "qty_mean": 435.88,
+   "price_min": 164.39,
+   "price_max": 181.42
+  },
+  "item_648": {
+   "price_mean": 58.9604,
+   "qty_mean": 338.4,
+   "price_min": 55.67,
+   "price_max": 61.44
+  },
+  "item_651": {
+   "price_mean": 140.792,
+   "qty_mean": 412.82,
+   "price_min": 133.8,
+   "price_max": 147.76
+  },
+  "item_659": {
+   "price_mean": 208.8866,
+   "qty_mean": 389.84,
+   "price_min": 198.79,
+   "price_max": 218.69
+  },
+  "item_666": {
+   "price_mean": 136.53320000000002,
+   "qty_mean": 481.06,
+   "price_min": 130.36,
+   "price_max": 142.43
+  },
+  "item_67": {
+   "price_mean": 216.61939999999998,
+   "qty_mean": 400.2,
+   "price_min": 207.08,
+   "price_max": 228.02
+  },
+  "item_682": {
+   "price_mean": 209.30939999999998,
+   "qty_mean": 486.66,
+   "price_min": 199.16,
+   "price_max": 219.5
+  },
+  "item_683": {
+   "price_mean": 135.71620000000001,
+   "qty_mean": 360.12,
+   "price_min": 128.76,
+   "price_max": 142.06
+  },
+  "item_684": {
+   "price_mean": 128.9618,
+   "qty_mean": 433.7,
+   "price_min": 123.08,
+   "price_max": 135.85
+  },
+  "item_690": {
+   "price_mean": 254.4174,
+   "qty_mean": 445.82,
+   "price_min": 243.0,
+   "price_max": 267.32
+  },
+  "item_696": {
+   "price_mean": 213.65740000000002,
+   "qty_mean": 459.46,
+   "price_min": 203.25,
+   "price_max": 223.83
+  },
+  "item_698": {
+   "price_mean": 245.4008,
+   "qty_mean": 492.9,
+   "price_min": 235.55,
+   "price_max": 259.64
+  },
+  "item_7": {
+   "price_mean": 69.8348,
+   "qty_mean": 451.34,
+   "price_min": 66.71,
+   "price_max": 73.69
+  },
+  "item_704": {
+   "price_mean": 113.2652,
+   "qty_mean": 435.6,
+   "price_min": 107.85,
+   "price_max": 119.05
+  },
+  "item_711": {
+   "price_mean": 89.95960000000001,
+   "qty_mean": 384.12,
+   "price_min": 85.53,
+   "price_max": 94.1
+  },
+  "item_714": {
+   "price_mean": 208.18460000000002,
+   "qty_mean": 299.66,
+   "price_min": 196.28,
+   "price_max": 216.56
+  },
+  "item_726": {
+   "price_mean": 194.25279999999998,
+   "qty_mean": 426.04,
+   "price_min": 185.14,
+   "price_max": 203.16
+  },
+  "item_727": {
+   "price_mean": 258.0434,
+   "qty_mean": 362.94,
+   "price_min": 244.44,
+   "price_max": 269.3
+  },
+  "item_728": {
+   "price_mean": 164.36100000000002,
+   "qty_mean": 391.54,
+   "price_min": 156.06,
+   "price_max": 172.09
+  },
+  "item_731": {
+   "price_mean": 61.86619999999999,
+   "qty_mean": 435.12,
+   "price_min": 58.92,
+   "price_max": 64.89
+  },
+  "item_732": {
+   "price_mean": 89.70279999999998,
+   "qty_mean": 427.24,
+   "price_min": 85.53,
+   "price_max": 93.41
+  },
+  "item_739": {
+   "price_mean": 164.83899999999997,
+   "qty_mean": 442.68,
+   "price_min": 157.61,
+   "price_max": 173.1
+  },
+  "item_740": {
+   "price_mean": 232.59199999999998,
+   "qty_mean": 427.32,
+   "price_min": 221.88,
+   "price_max": 244.56
+  },
+  "item_741": {
+   "price_mean": 272.34979999999996,
+   "qty_mean": 380.64,
+   "price_min": 257.98,
+   "price_max": 283.52
+  },
+  "item_743": {
+   "price_mean": 96.4542,
+   "qty_mean": 418.86,
+   "price_min": 91.34,
+   "price_max": 100.6
+  },
+  "item_751": {
+   "price_mean": 130.0621,
+   "qty_mean": 365.04,
+   "price_min": 113.92,
+   "price_max": 147.87
+  },
+  "item_761": {
+   "price_mean": 95.3872,
+   "qty_mean": 438.54,
+   "price_min": 90.83,
+   "price_max": 100.16
+  },
+  "item_765": {
+   "price_mean": 84.07879999999999,
+   "qty_mean": 459.2,
+   "price_min": 80.19,
+   "price_max": 87.98
+  },
+  "item_770": {
+   "price_mean": 90.9108,
+   "qty_mean": 435.61,
+   "price_min": 86.15,
+   "price_max": 95.08
+  },
+  "item_779": {
+   "price_mean": 217.6368,
+   "qty_mean": 415.68,
+   "price_min": 207.77,
+   "price_max": 228.86
+  },
+  "item_782": {
+   "price_mean": 287.46020000000004,
+   "qty_mean": 423.54,
+   "price_min": 273.49,
+   "price_max": 300.23
+  },
+  "item_783": {
+   "price_mean": 228.1985,
+   "qty_mean": 311.95,
+   "price_min": 154.29,
+   "price_max": 305.86
+  },
+  "item_784": {
+   "price_mean": 288.42580000000004,
+   "qty_mean": 395.18,
+   "price_min": 273.66,
+   "price_max": 302.28
+  },
+  "item_786": {
+   "price_mean": 207.49319999999997,
+   "qty_mean": 381.94,
+   "price_min": 198.15,
+   "price_max": 218.49
+  },
+  "item_794": {
+   "price_mean": 184.879,
+   "qty_mean": 410.4066666666667,
+   "price_min": 92.92,
+   "price_max": 308.38
+  },
+  "item_797": {
+   "price_mean": 179.09350000000003,
+   "qty_mean": 438.45,
+   "price_min": 95.93,
+   "price_max": 270.35
+  },
+  "item_803": {
+   "price_mean": 197.7888,
+   "qty_mean": 483.5,
+   "price_min": 188.46,
+   "price_max": 207.27
+  },
+  "item_822": {
+   "price_mean": 184.6984,
+   "qty_mean": 415.62,
+   "price_min": 176.0,
+   "price_max": 193.86
+  },
+  "item_83": {
+   "price_mean": 160.3866,
+   "qty_mean": 465.32,
+   "price_min": 151.99,
+   "price_max": 167.32
+  },
+  "item_832": {
+   "price_mean": 253.5768,
+   "qty_mean": 423.7,
+   "price_min": 241.3,
+   "price_max": 265.33
+  },
+  "item_844": {
+   "price_mean": 218.54120000000003,
+   "qty_mean": 302.12,
+   "price_min": 207.46,
+   "price_max": 228.59
+  },
+  "item_849": {
+   "price_mean": 190.42660000000006,
+   "qty_mean": 359.32,
+   "price_min": 181.46,
+   "price_max": 198.9
+  },
+  "item_850": {
+   "price_mean": 82.03119999999998,
+   "qty_mean": 370.52,
+   "price_min": 78.17,
+   "price_max": 85.8
+  },
+  "item_851": {
+   "price_mean": 211.97459999999998,
+   "qty_mean": 377.03,
+   "price_min": 128.68,
+   "price_max": 302.98
+  },
+  "item_855": {
+   "price_mean": 119.80579999999998,
+   "qty_mean": 479.12,
+   "price_min": 113.59,
+   "price_max": 125.21
+  },
+  "item_857": {
+   "price_mean": 52.5994,
+   "qty_mean": 345.5,
+   "price_min": 50.29,
+   "price_max": 55.18
+  },
+  "item_861": {
+   "price_mean": 208.63100000000003,
+   "qty_mean": 349.06,
+   "price_min": 199.27,
+   "price_max": 219.42
+  },
+  "item_865": {
+   "price_mean": 72.01060000000001,
+   "qty_mean": 494.44,
+   "price_min": 68.3,
+   "price_max": 75.23
+  },
+  "item_867": {
+   "price_mean": 245.6456,
+   "qty_mean": 363.94,
+   "price_min": 232.39,
+   "price_max": 256.49
+  },
+  "item_868": {
+   "price_mean": 181.3964,
+   "qty_mean": 475.77,
+   "price_min": 164.41,
+   "price_max": 199.63
+  },
+  "item_877": {
+   "price_mean": 296.8002,
+   "qty_mean": 324.5,
+   "price_min": 281.39,
+   "price_max": 310.66
+  },
+  "item_884": {
+   "price_mean": 151.0094,
+   "qty_mean": 400.94,
+   "price_min": 144.31,
+   "price_max": 158.65
+  },
+  "item_886": {
+   "price_mean": 272.2466,
+   "qty_mean": 451.76,
+   "price_min": 261.03,
+   "price_max": 286.9
+  },
+  "item_893": {
+   "price_mean": 210.46559999999997,
+   "qty_mean": 348.32,
+   "price_min": 201.14,
+   "price_max": 221.9
+  },
+  "item_894": {
+   "price_mean": 96.51280000000001,
+   "qty_mean": 335.44,
+   "price_min": 92.25,
+   "price_max": 101.56
+  },
+  "item_907": {
+   "price_mean": 138.8998,
+   "qty_mean": 434.88,
+   "price_min": 131.94,
+   "price_max": 145.54
+  },
+  "item_91": {
+   "price_mean": 114.80680000000002,
+   "qty_mean": 462.96,
+   "price_min": 109.34,
+   "price_max": 120.56
+  },
+  "item_911": {
+   "price_mean": 117.8872,
+   "qty_mean": 304.3,
+   "price_min": 112.57,
+   "price_max": 123.82
+  },
+  "item_915": {
+   "price_mean": 264.7014,
+   "qty_mean": 396.96,
+   "price_min": 252.69,
+   "price_max": 279.08
+  },
+  "item_923": {
+   "price_mean": 122.7624,
+   "qty_mean": 468.32,
+   "price_min": 116.77,
+   "price_max": 127.5
+  },
+  "item_933": {
+   "price_mean": 142.8248,
+   "qty_mean": 397.39,
+   "price_min": 83.66,
+   "price_max": 207.67
+  },
+  "item_939": {
+   "price_mean": 267.441,
+   "qty_mean": 487.38,
+   "price_min": 254.97,
+   "price_max": 281.01
+  },
+  "item_947": {
+   "price_mean": 225.3014,
+   "qty_mean": 476.32,
+   "price_min": 213.99,
+   "price_max": 236.22
+  },
+  "item_95": {
+   "price_mean": 137.451,
+   "qty_mean": 494.24,
+   "price_min": 131.05,
+   "price_max": 144.06
+  },
+  "item_956": {
+   "price_mean": 140.49999999999997,
+   "qty_mean": 313.5,
+   "price_min": 133.51,
+   "price_max": 147.19
+  },
+  "item_957": {
+   "price_mean": 167.67700000000002,
+   "qty_mean": 339.66,
+   "price_min": 160.14,
+   "price_max": 176.37
+  },
+  "item_960": {
+   "price_mean": 202.9664,
+   "qty_mean": 309.02,
+   "price_min": 192.62,
+   "price_max": 212.56
+  },
+  "item_966": {
+   "price_mean": 99.5976,
+   "qty_mean": 422.7,
+   "price_min": 95.97,
+   "price_max": 105.0
+  },
+  "item_976": {
+   "price_mean": 98.11139999999997,
+   "qty_mean": 431.64,
+   "price_min": 92.94,
+   "price_max": 102.5
+  },
+  "item_980": {
+   "price_mean": 94.81179999999999,
+   "qty_mean": 479.66,
+   "price_min": 90.69,
+   "price_max": 99.9
+  },
+  "item_99": {
+   "price_mean": 252.07780000000002,
+   "qty_mean": 468.22,
+   "price_min": 240.05,
+   "price_max": 263.56
+  },
+  "item_994": {
+   "price_mean": 124.7958,
+   "qty_mean": 338.37,
+   "price_min": 58.95,
+   "price_max": 195.96
+  }
+ },
+ "rmse": {
+  "store-item average (ignores price)": 0.057,
+  "last week's quantity": 0.0986,
+  "fixed effects + price + competitor price": 0.0568,
+  "gradient boosting WITHOUT any price feature": 0.0505,
+  "gradient boosting (price, competitor, lags)": 0.0468
+ }
+}

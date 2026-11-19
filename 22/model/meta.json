@@ -1,0 +1,116 @@
+{
+ "n_titles": 24812,
+ "missing_release_pct": 67.08850556182492,
+ "gini": 0.7968537275524299,
+ "top1_share": 0.24388280696128015,
+ "top10_share": 0.6835404120783904,
+ "groups": [
+  {
+   "by": "type",
+   "group": "Movie",
+   "titles": 14104,
+   "median_M": 0.5,
+   "ci_low": 0.5,
+   "ci_high": 0.5,
+   "mean_M": 3.59,
+   "share_of_hours_%": 31.968
+  },
+  {
+   "by": "type",
+   "group": "Show",
+   "titles": 10708,
+   "median_M": 2.5,
+   "ci_low": 2.4,
+   "ci_high": 2.6,
+   "mean_M": 10.064,
+   "share_of_hours_%": 68.032
+  },
+  {
+   "by": "global",
+   "group": "No",
+   "titles": 17162,
+   "median_M": 0.7,
+   "ci_low": 0.6,
+   "ci_high": 0.7,
+   "mean_M": 4.262,
+   "share_of_hours_%": 46.173
+  },
+  {
+   "by": "global",
+   "group": "Yes",
+   "titles": 7650,
+   "median_M": 2.8,
+   "ci_low": 2.7,
+   "ci_high": 2.9,
+   "mean_M": 11.145,
+   "share_of_hours_%": 53.827
+  },
+  {
+   "by": "language",
+   "group": "English",
+   "titles": 17268,
+   "median_M": 1.4,
+   "ci_low": 1.3,
+   "ci_high": 1.4,
+   "mean_M": 7.206,
+   "share_of_hours_%": 78.561
+  },
+  {
+   "by": "language",
+   "group": "Hindi",
+   "titles": 374,
+   "median_M": 0.8,
+   "ci_low": 0.6,
+   "ci_high": 1.0,
+   "mean_M": 2.476,
+   "share_of_hours_%": 0.585
+  },
+  {
+   "by": "language",
+   "group": "Japanese",
+   "titles": 2297,
+   "median_M": 0.7,
+   "ci_low": 0.6,
+   "ci_high": 0.7,
+   "mean_M": 3.092,
+   "share_of_hours_%": 4.484
+  },
+  {
+   "by": "language",
+   "group": "Korean",
+   "titles": 1582,
+   "median_M": 1.7,
+   "ci_low": 1.4,
+   "ci_high": 2.05,
+   "mean_M": 9.721,
+   "share_of_hours_%": 9.708
+  },
+  {
+   "by": "language",
+   "group": "Non-English",
+   "titles": 3252,
+   "median_M": 0.4,
+   "ci_low": 0.4,
+   "ci_high": 0.5,
+   "mean_M": 3.21,
+   "share_of_hours_%": 6.59
+  },
+  {
+   "by": "language",
+   "group": "Russian",
+   "titles": 39,
+   "median_M": 0.3,
+   "ci_low": 0.1,
+   "ci_high": 0.5,
+   "mean_M": 2.938,
+   "share_of_hours_%": 0.072
+  }
+ ],
+ "month_test": {
+  "F_without_exposure": 2.413128655771161,
+  "p_without": 0.0059559482757279136,
+  "F_with_exposure": 2.718454419061995,
+  "p_with": 0.0018917133440948344,
+  "elasticity_days": 0.4246537920725165
+ }
+}

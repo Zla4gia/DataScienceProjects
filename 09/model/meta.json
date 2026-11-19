@@ -1,0 +1,77 @@
+{
+ "snapshot": "2023-06-11",
+ "r_edges_days": [
+  13.0,
+  25.0,
+  38.0,
+  48.0
+ ],
+ "m_edges": [
+  218.64,
+  440.15,
+  644.07,
+  821.22
+ ],
+ "segments": [
+  {
+   "segment": "At risk big spenders (one order, not recent)",
+   "customers": 204,
+   "share_customers": 0.216,
+   "mean_recency_days": 42.373,
+   "mean_spend": 816.994,
+   "revenue": 166666.7,
+   "share_revenue": 0.324
+  },
+  {
+   "segment": "Champions (repeat, recent)",
+   "customers": 26,
+   "share_customers": 0.027,
+   "mean_recency_days": 11.038,
+   "mean_spend": 1071.381,
+   "revenue": 27855.9,
+   "share_revenue": 0.054
+  },
+  {
+   "segment": "Hibernating (one order, low spend, not recent)",
+   "customers": 339,
+   "share_customers": 0.358,
+   "mean_recency_days": 44.038,
+   "mean_spend": 338.696,
+   "revenue": 114817.97,
+   "share_revenue": 0.224
+  },
+  {
+   "segment": "New big spenders",
+   "customers": 133,
+   "share_customers": 0.141,
+   "mean_recency_days": 13.038,
+   "mean_spend": 820.058,
+   "revenue": 109067.68,
+   "share_revenue": 0.212
+  },
+  {
+   "segment": "New customers",
+   "customers": 219,
+   "share_customers": 0.232,
+   "mean_recency_days": 12.763,
+   "mean_spend": 312.462,
+   "revenue": 68429.18,
+   "share_revenue": 0.133
+  },
+  {
+   "segment": "Repeat, drifting",
+   "customers": 25,
+   "share_customers": 0.026,
+   "mean_recency_days": 36.84,
+   "mean_spend": 1073.615,
+   "revenue": 26840.38,
+   "share_revenue": 0.052
+  }
+ ],
+ "n_customers": 946,
+ "share_one_order": 0.9460887949260042,
+ "return_rate_after_cut": 0.05458089668615984,
+ "kmeans_real_silhouette": 0.48277039336861843,
+ "kmeans_null_silhouette": 0.5758405133981401,
+ "caveat": "Segments are rule-based labels on one two-month window; in a back-test they did not predict who ordered again."
+}

@@ -1,0 +1,48 @@
+{
+ "co2_decade_increase": {
+  "1960s": 0.864,
+  "1970s": 1.221,
+  "1980s": 1.637,
+  "1990s": 1.533,
+  "2000s": 1.91,
+  "2010s": 2.401,
+  "2020-2023": 2.358
+ },
+ "world_trend_per_decade": 0.2792601546171087,
+ "trend_ci": [
+  0.2369406198132043,
+  0.3215796894210131
+ ],
+ "break_year": 1975,
+ "slope_pre": -0.039384780930547876,
+ "slope_post": 0.3304336968439724,
+ "correlations": {
+  "levels": 0.942,
+  "after removing each series' linear trend": 0.47,
+  "year-to-year changes": 0.308,
+  "year-to-year changes, 10-year moving average": 0.405
+ },
+ "slope_deg_per_ppm": 0.016999344551131165,
+ "slope_ci": [
+  0.01553730200670328,
+  0.01846138709555905
+ ],
+ "oos": {
+  "training mean": {
+   "RMSE (deg C)": 0.974,
+   "mean error (bias)": -0.941
+  },
+  "time trend only": {
+   "RMSE (deg C)": 0.332,
+   "mean error (bias)": -0.288
+  },
+  "CO2 only": {
+   "RMSE (deg C)": 0.176,
+   "mean error (bias)": -0.097
+  },
+  "time trend + CO2": {
+   "RMSE (deg C)": 0.625,
+   "mean error (bias)": 0.507
+  }
+ }
+}

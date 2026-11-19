@@ -1,0 +1,75 @@
+{
+ "features": [
+  "year",
+  "hour",
+  "weekday",
+  "month",
+  "holiday",
+  "workingday",
+  "weather",
+  "temp",
+  "feel_temp",
+  "humidity",
+  "windspeed"
+ ],
+ "weather": [
+  "clear",
+  "heavy_rain",
+  "misty",
+  "rain"
+ ],
+ "ranges": {
+  "temp": [
+   0.8200000000000001,
+   41.0
+  ],
+  "feel_temp": [
+   0.0,
+   50.0
+  ],
+  "humidity": [
+   0.0,
+   1.0
+  ],
+  "windspeed": [
+   0.0,
+   56.9969
+  ]
+ },
+ "defaults": {
+  "temp": 20.5,
+  "feel_temp": 24.24,
+  "humidity": 0.63,
+  "windspeed": 12.998
+ },
+ "test_scores": {
+  "1 hour x working-day average": {
+   "RMSLE": 0.604,
+   "MAE": 79.95,
+   "PoissonDev": 49.637
+  },
+  "2 Poisson GLM": {
+   "RMSLE": 0.486,
+   "MAE": 46.969,
+   "PoissonDev": 22.879
+  },
+  "3 random forest": {
+   "RMSLE": 0.473,
+   "MAE": 48.7,
+   "PoissonDev": 23.238
+  },
+  "4 gradient boosting (Poisson loss)": {
+   "RMSLE": 0.429,
+   "MAE": 45.212,
+   "PoissonDev": 20.556
+  },
+  "5 gradient boosting (log target)": {
+   "RMSLE": 0.429,
+   "MAE": 45.237,
+   "PoissonDev": 20.938
+  }
+ },
+ "band80_coverage": 0.7264760147601476,
+ "band80_raw_coverage": 0.5189114391143912,
+ "conformal_Q": 19.525249902035338
+}

@@ -1,0 +1,31 @@
+{
+ "k_best": 55,
+ "n_events": 16941,
+ "period": [
+  "2015-01-01",
+  "2024-12-30"
+ ],
+ "comparison": {
+  "k-means (k=55)": {
+   "clusters": 55,
+   "noise_%": 0.0,
+   "silhouette": 0.548,
+   "median_cluster_radius_km": 512.966,
+   "region_purity": 0.622
+  },
+  "DBSCAN (100 km, 25)": {
+   "clusters": 66,
+   "noise_%": 34.29,
+   "silhouette": 0.454,
+   "median_cluster_radius_km": 68.502,
+   "region_purity": 0.754
+  },
+  "HDBSCAN (min size 40)": {
+   "clusters": 116,
+   "noise_%": 26.403,
+   "silhouette": 0.575,
+   "median_cluster_radius_km": 114.557,
+   "region_purity": 0.804
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "hit_rate": {
+  "popularity": {
+   "hit_rate@5_%": 25.8,
+   "ci_low": 24.3,
+   "ci_high": 27.33
+  },
+  "single-item rules (max confidence)": {
+   "hit_rate@5_%": 26.45,
+   "ci_low": 24.89,
+   "ci_high": 27.98
+  },
+  "lift-weighted (>= 20 co-occurrences)": {
+   "hit_rate@5_%": 26.02,
+   "ci_low": 24.46,
+   "ci_high": 27.55
+  },
+  "Apriori rules (multi-item antecedents)": {
+   "hit_rate@5_%": 27.29,
+   "ci_low": 25.73,
+   "ci_high": 28.72
+  }
+ },
+ "null": [
+  {
+   "lift >=": 1.2,
+   "rules in the real data": 1599,
+   "rules in shuffled data (mean of 5)": 22.2
+  },
+  {
+   "lift >=": 1.5,
+   "rules in the real data": 1325,
+   "rules in shuffled data (mean of 5)": 0.4
+  },
+  {
+   "lift >=": 2.0,
+   "rules in the real data": 748,
+   "rules in shuffled data (mean of 5)": 0.0
+  },
+  {
+   "lift >=": 2.5,
+   "rules in the real data": 356,
+   "rules in shuffled data (mean of 5)": 0.0
+  },
+  {
+   "lift >=": 3.0,
+   "rules in the real data": 152,
+   "rules in shuffled data (mean of 5)": 0.0
+  }
+ ],
+ "n_rules": 1751,
+ "holdout_buckets": [
+  {
+   "rules": 363,
+   "mean_lift_train": 1.233,
+   "mean_lift_test": 1.241,
+   "mean_conf_train": 0.19,
+   "mean_conf_test": 0.188
+  },
+  {
+   "rules": 363,
+   "mean_lift_train": 1.632,
+   "mean_lift_test": 1.585,
+   "mean_conf_train": 0.239,
+   "mean_conf_test": 0.234
+  },
+  {
+   "rules": 362,
+   "mean_lift_train": 1.933,
+   "mean_lift_test": 1.877,
+   "mean_conf_train": 0.254,
+   "mean_conf_test": 0.248
+  },
+  {
+   "rules": 363,
+   "mean_lift_train": 2.332,
+   "mean_lift_test": 2.165,
+   "mean_conf_train": 0.293,
+   "mean_conf_test": 0.273
+  },
+  {
+   "rules": 363,
+   "mean_lift_train": 3.186,
+   "mean_lift_test": 2.865,
+   "mean_conf_train": 0.258,
+   "mean_conf_test": 0.234
+  }
+ ]
+}

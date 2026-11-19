@@ -1,0 +1,206 @@
+{
+ "test_mae": {
+  "lightgbm multivariate": {
+   "MAE +1h": 0.573,
+   "MAE +6h": 1.953,
+   "MAE +12h": 2.729,
+   "MAE +24h": 3.816,
+   "mean": 2.268
+  },
+  "lightgbm multivariate (predict change)": {
+   "MAE +1h": 0.441,
+   "MAE +6h": 0.987,
+   "MAE +12h": 1.302,
+   "MAE +24h": 1.675,
+   "mean": 1.101
+  },
+  "lightgbm univariate": {
+   "MAE +1h": 0.506,
+   "MAE +6h": 1.471,
+   "MAE +12h": 2.048,
+   "MAE +24h": 3.058,
+   "mean": 1.771
+  },
+  "lightgbm univariate (predict change)": {
+   "MAE +1h": 0.429,
+   "MAE +6h": 1.05,
+   "MAE +12h": 1.437,
+   "MAE +24h": 1.637,
+   "mean": 1.138
+  },
+  "naive (last value)": {
+   "MAE +1h": 0.435,
+   "MAE +6h": 1.164,
+   "MAE +12h": 1.561,
+   "MAE +24h": 1.632,
+   "mean": 1.198
+  },
+  "ridge multivariate": {
+   "MAE +1h": 0.482,
+   "MAE +6h": 1.185,
+   "MAE +12h": 1.584,
+   "MAE +24h": 1.895,
+   "mean": 1.286
+  },
+  "ridge multivariate (predict change)": {
+   "MAE +1h": 0.474,
+   "MAE +6h": 1.179,
+   "MAE +12h": 1.581,
+   "MAE +24h": 1.89,
+   "mean": 1.281
+  },
+  "ridge univariate": {
+   "MAE +1h": 0.448,
+   "MAE +6h": 1.075,
+   "MAE +12h": 1.396,
+   "MAE +24h": 1.705,
+   "mean": 1.156
+  },
+  "ridge univariate (predict change)": {
+   "MAE +1h": 0.442,
+   "MAE +6h": 1.073,
+   "MAE +12h": 1.396,
+   "MAE +24h": 1.703,
+   "mean": 1.153
+  },
+  "seasonal naive (same hour yesterday)": {
+   "MAE +1h": 1.63,
+   "MAE +6h": 1.63,
+   "MAE +12h": 1.631,
+   "MAE +24h": 1.632,
+   "mean": 1.631
+  }
+ },
+ "same_origins_mae": {
+  "naive (last value)": {
+   "+1h": 0.471,
+   "+6h": 1.131,
+   "+12h": 1.523,
+   "+24h": 1.614,
+   "mean": 1.184
+  },
+  "seasonal naive (same hour yesterday)": {
+   "+1h": 1.604,
+   "+6h": 1.613,
+   "+12h": 1.613,
+   "+24h": 1.614,
+   "mean": 1.611
+  },
+  "ridge univariate": {
+   "+1h": 0.471,
+   "+6h": 1.052,
+   "+12h": 1.404,
+   "+24h": 1.679,
+   "mean": 1.151
+  },
+  "ridge multivariate": {
+   "+1h": 0.481,
+   "+6h": 1.202,
+   "+12h": 1.618,
+   "+24h": 1.878,
+   "mean": 1.295
+  },
+  "lightgbm univariate": {
+   "+1h": 0.539,
+   "+6h": 1.467,
+   "+12h": 2.033,
+   "+24h": 3.071,
+   "mean": 1.777
+  },
+  "lightgbm multivariate": {
+   "+1h": 0.608,
+   "+6h": 1.939,
+   "+12h": 2.732,
+   "+24h": 3.84,
+   "mean": 2.28
+  },
+  "ridge univariate (predict change)": {
+   "+1h": 0.465,
+   "+6h": 1.047,
+   "+12h": 1.403,
+   "+24h": 1.675,
+   "mean": 1.147
+  },
+  "ridge multivariate (predict change)": {
+   "+1h": 0.474,
+   "+6h": 1.197,
+   "+12h": 1.615,
+   "+24h": 1.872,
+   "mean": 1.289
+  },
+  "lightgbm univariate (predict change)": {
+   "+1h": 0.456,
+   "+6h": 1.055,
+   "+12h": 1.42,
+   "+24h": 1.609,
+   "mean": 1.135
+  },
+  "lightgbm multivariate (predict change)": {
+   "+1h": 0.455,
+   "+6h": 0.972,
+   "+12h": 1.286,
+   "+24h": 1.645,
+   "mean": 1.089
+  },
+  "VAR(24) on 7 series": {
+   "+1h": 0.491,
+   "+6h": 1.366,
+   "+12h": 1.774,
+   "+24h": 1.752,
+   "mean": 1.346
+  }
+ },
+ "gain_pct": {
+  "ridge": {
+   "+1h": -7.6,
+   "+6h": -10.22,
+   "+12h": -13.41,
+   "+24h": -11.13
+  },
+  "ridge (predict change)": {
+   "+1h": -7.31,
+   "+6h": -9.94,
+   "+12h": -13.24,
+   "+24h": -11.0
+  },
+  "lightgbm": {
+   "+1h": -13.22,
+   "+6h": -32.81,
+   "+12h": -33.25,
+   "+24h": -24.79
+  },
+  "lightgbm (predict change)": {
+   "+1h": -2.72,
+   "+6h": 6.04,
+   "+12h": 9.35,
+   "+24h": -2.3
+  }
+ },
+ "stocks_long": {
+  "AAPL": {
+   "R2 vs zero forecast (%)": -5.56,
+   "R2 of the training mean (%)": -0.455,
+   "sign correct (%)": 47.867
+  },
+  "GOOG": {
+   "R2 vs zero forecast (%)": -2.902,
+   "R2 of the training mean (%)": -0.223,
+   "sign correct (%)": 48.667
+  },
+  "MSFT": {
+   "R2 vs zero forecast (%)": -6.262,
+   "R2 of the training mean (%)": -0.295,
+   "sign correct (%)": 48.267
+  },
+  "NFLX": {
+   "R2 vs zero forecast (%)": -1.83,
+   "R2 of the training mean (%)": -0.136,
+   "sign correct (%)": 49.6
+  },
+  "TSLA": {
+   "R2 vs zero forecast (%)": -2.621,
+   "R2 of the training mean (%)": -0.917,
+   "sign correct (%)": 48.267
+  }
+ }
+}

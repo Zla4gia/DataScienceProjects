@@ -1,0 +1,59 @@
+{
+ "rouge": {
+  "Lead-3": {
+   "ROUGE-1 [95% CI]": "39.1 [37.0, 41.2]",
+   "ROUGE-2 [95% CI]": "16.2 [14.3, 18.1]",
+   "ROUGE-Lsum [95% CI]": "34.7 [32.6, 36.8]",
+   "mean words": 76.7
+  },
+  "Extractive-GBM (mine)": {
+   "ROUGE-1 [95% CI]": "39.3 [37.4, 41.5]",
+   "ROUGE-2 [95% CI]": "16.4 [14.6, 18.6]",
+   "ROUGE-Lsum [95% CI]": "35.0 [33.1, 37.1]",
+   "mean words": 78.31666666666666
+  },
+  "t5-small": {
+   "ROUGE-1 [95% CI]": "36.5 [34.2, 38.8]",
+   "ROUGE-2 [95% CI]": "15.2 [13.0, 17.5]",
+   "ROUGE-Lsum [95% CI]": "31.3 [29.0, 33.5]",
+   "mean words": 42.65
+  },
+  "DistilBART-CNN-6-6": {
+   "ROUGE-1 [95% CI]": "43.0 [40.8, 45.4]",
+   "ROUGE-2 [95% CI]": "19.5 [17.4, 21.7]",
+   "ROUGE-Lsum [95% CI]": "39.3 [37.2, 41.5]",
+   "mean words": 51.141666666666666
+  }
+ },
+ "style": {
+  "Lead-3": {
+   "novel_bigrams_%": 0.0,
+   "summaries_with_numbers_%": 72.5,
+   "summaries_with_unsupported_number_%": 0.0,
+   "n_unsupported": 0
+  },
+  "Extractive-GBM (mine)": {
+   "novel_bigrams_%": 1.2,
+   "summaries_with_numbers_%": 74.2,
+   "summaries_with_unsupported_number_%": 0.0,
+   "n_unsupported": 0
+  },
+  "t5-small": {
+   "novel_bigrams_%": 11.2,
+   "summaries_with_numbers_%": 69.2,
+   "summaries_with_unsupported_number_%": 0.8,
+   "n_unsupported": 1
+  },
+  "DistilBART-CNN-6-6": {
+   "novel_bigrams_%": 9.7,
+   "summaries_with_numbers_%": 74.2,
+   "summaries_with_unsupported_number_%": 1.7,
+   "n_unsupported": 2
+  }
+ },
+ "n_articles": 120,
+ "models": {
+  "t5-small": "google-t5/t5-small",
+  "DistilBART": "sshleifer/distilbart-cnn-6-6"
+ }
+}

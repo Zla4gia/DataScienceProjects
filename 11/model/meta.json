@@ -1,0 +1,25 @@
+{
+ "leakage": {
+  "random split (standard)": 75.3,
+  "group split, similarity >= 0.75": 45.1,
+  "group split, similarity >= 0.8": 58.3,
+  "group split, similarity >= 0.9": 75.4
+ },
+ "models_group_split": {
+  "logistic regression on ResNet-18 features": 56.8,
+  "k-NN (k=5) on ResNet-18 features": 65.1,
+  "small CNN from scratch (64x64, last epoch)": 49.0
+ },
+ "robustness": {
+  "original": 56.1,
+  "mirror (left-handed signer)": 57.1,
+  "rotate 20 deg": 26.0,
+  "rotate 45 deg": 26.8,
+  "darker (x0.5)": 45.4,
+  "brighter (x1.6)": 30.2,
+  "blur (radius 4)": 19.8,
+  "centre crop 60%": 33.4,
+  "grayscale": 35.7
+ },
+ "note": "Features: torchvision ResNet-18 (ImageNet) penultimate layer, 224x224 resize, ImageNet normalisation."
+}

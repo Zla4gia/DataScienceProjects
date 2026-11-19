@@ -1,0 +1,99 @@
+{
+ "features_raw": [
+  "Gender",
+  "Married",
+  "Dependents",
+  "Education",
+  "Self_Employed",
+  "ApplicantIncome",
+  "CoapplicantIncome",
+  "LoanAmount",
+  "Loan_Amount_Term",
+  "Credit_History",
+  "Property_Area"
+ ],
+ "cat_values": {
+  "Gender": [
+   "Female",
+   "Male"
+  ],
+  "Married": [
+   "No",
+   "Yes"
+  ],
+  "Dependents": [
+   "0",
+   "1",
+   "2",
+   "3+"
+  ],
+  "Education": [
+   "Graduate",
+   "Not Graduate"
+  ],
+  "Self_Employed": [
+   "No",
+   "Yes"
+  ],
+  "Property_Area": [
+   "Rural",
+   "Semiurban",
+   "Urban"
+  ],
+  "Credit_History": [
+   "0.0",
+   "1.0"
+  ]
+ },
+ "ranges": {
+  "ApplicantIncome": [
+   150.0,
+   81000.0
+  ],
+  "CoapplicantIncome": [
+   0.0,
+   41667.0
+  ],
+  "LoanAmount": [
+   17.0,
+   700.0
+  ],
+  "Loan_Amount_Term": [
+   12.0,
+   480.0
+  ]
+ },
+ "threshold": 0.69,
+ "cv": {
+  "approve everyone": {
+   "accuracy": 0.699,
+   "acc_sd_over_folds": 0.005,
+   "roc_auc": 0.5,
+   "f1": 0.823
+  },
+  "rule: credit history = 1": {
+   "accuracy": 0.813,
+   "acc_sd_over_folds": 0.033,
+   "roc_auc": 0.701,
+   "f1": 0.88
+  },
+  "logistic regression": {
+   "accuracy": 0.813,
+   "acc_sd_over_folds": 0.033,
+   "roc_auc": 0.766,
+   "f1": 0.88
+  },
+  "random forest": {
+   "accuracy": 0.809,
+   "acc_sd_over_folds": 0.035,
+   "roc_auc": 0.761,
+   "f1": 0.877
+  },
+  "gradient boosting": {
+   "accuracy": 0.812,
+   "acc_sd_over_folds": 0.034,
+   "roc_auc": 0.763,
+   "f1": 0.878
+  }
+ }
+}

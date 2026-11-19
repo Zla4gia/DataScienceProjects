@@ -1,0 +1,212 @@
+[
+ [
+  1,
+  "Regression",
+  "Car Insurance Modelling",
+  "https://amanxai.com/2024/01/08/car-insurance-modelling-using-python/",
+  "page list"
+ ],
+ [
+  2,
+  "Regression",
+  "Price Elasticity of Demand Analysis",
+  "https://amanxai.com/2024/08/19/price-elasticity-of-demand-analysis-with-python/",
+  "page list"
+ ],
+ [
+  3,
+  "Regression",
+  "Bike Sharing Demand",
+  "",
+  "NOT on either list (well-known count-regression problem; replaces Concrete Strength, which repeats Homework-Day5)"
+ ],
+ [
+  4,
+  "Classification",
+  "Loan Approval Prediction",
+  "https://amanxai.com/2023/05/15/loan-approval-prediction-using-python/",
+  "page list"
+ ],
+ [
+  5,
+  "Classification",
+  "Credit Scoring and Risk Tiers",
+  "https://amanxai.com/2023/07/03/credit-scoring-and-segmentation-using-python/",
+  "page list (replaces Hybrid ML Model, which is stock forecasting, not classification)"
+ ],
+ [
+  6,
+  "Classification",
+  "Customer Churn: Comparing Many Models",
+  "https://amanxai.com/2024/02/19/compare-multiple-machine-learning-models/",
+  "page list method (Compare Multiple ML Models is a regression article; I use its method on a classification problem)"
+ ],
+ [
+  7,
+  "Clustering",
+  "Geospatial Clustering (earthquake hotspots)",
+  "https://amanxai.com/2025/04/22/geospatial-clustering-with-python/",
+  "page list (reference uses Kaggle delivery data; I use public USGS earthquake data)"
+ ],
+ [
+  8,
+  "Clustering",
+  "User Profiling & Segmentation",
+  "https://amanxai.com/2024/02/26/user-profiling-and-segmentation-using-python/",
+  "page list"
+ ],
+ [
+  9,
+  "Clustering",
+  "RFM Analysis",
+  "https://amanxai.com/2025/08/26/a-guide-to-rfm-analysis-using-python/",
+  "page list"
+ ],
+ [
+  10,
+  "Computer Vision",
+  "Handwriting Recognition",
+  "https://amanxai.com/2020/10/10/handwriting-recognition-with-python/",
+  "author's computer-vision list (page has no CV section)"
+ ],
+ [
+  11,
+  "Computer Vision",
+  "Sign Language Classification",
+  "https://amanxai.com/2020/12/05/sign-language-classification-with-python/",
+  "author's computer-vision list"
+ ],
+ [
+  12,
+  "Computer Vision",
+  "Flower Recognition",
+  "https://amanxai.com/2020/11/24/flower-recognition-with-python/",
+  "author's computer-vision list"
+ ],
+ [
+  13,
+  "NLP",
+  "Text Classification Pipeline with Hugging Face Transformers",
+  "https://amanxai.com/2025/07/22/text-classification-pipeline-with-hugging-face-transformers/",
+  "page list"
+ ],
+ [
+  14,
+  "NLP",
+  "Text Summarization",
+  "https://amanxai.com/2024/10/07/text-summarization-model-using-llms/",
+  "page list"
+ ],
+ [
+  15,
+  "NLP",
+  "Document Analysis",
+  "https://amanxai.com/2024/10/21/document-analysis-using-llms-with-python/",
+  "page list"
+ ],
+ [
+  16,
+  "Recommendation Systems",
+  "Music Recommendation System",
+  "https://amanxai.com/2023/07/31/music-recommendation-system-using-python/",
+  "page list"
+ ],
+ [
+  17,
+  "Recommendation Systems",
+  "Hybrid Recommendation System",
+  "https://amanxai.com/2023/06/05/hybrid-recommendation-system-using-python/",
+  "page list"
+ ],
+ [
+  18,
+  "Recommendation Systems",
+  "Market Basket Analysis",
+  "https://amanxai.com/2023/10/16/market-basket-analysis-using-python/",
+  "author's deep-learning/ML ideas list"
+ ],
+ [
+  19,
+  "Time Series",
+  "Netflix Subscriptions Forecasting",
+  "https://amanxai.com/2023/08/07/netflix-subscriptions-forecasting-using-python/",
+  "page list"
+ ],
+ [
+  20,
+  "Time Series",
+  "Multivariate Time Series Forecasting",
+  "https://amanxai.com/2024/03/11/multivariate-time-series-forecasting-using-python/",
+  "page list"
+ ],
+ [
+  21,
+  "Time Series",
+  "Stock Market Anomaly Detection",
+  "https://amanxai.com/2024/04/08/stock-market-anomaly-detection-using-python/",
+  "page list"
+ ],
+ [
+  22,
+  "Data Visualization",
+  "Netflix Content Strategy Analysis",
+  "https://amanxai.com/2024/09/30/netflix-content-strategy-analysis-with-python/",
+  "page list"
+ ],
+ [
+  23,
+  "Data Visualization",
+  "Analyzing the Impact of Carbon Emissions",
+  "https://amanxai.com/2024/11/25/carbon-emissions-impact-analysis-with-python/",
+  "page list"
+ ],
+ [
+  24,
+  "Data Visualization",
+  "Rainfall Trends in India Analysis",
+  "https://amanxai.com/2024/11/18/rainfall-trends-in-india-analysis-with-python/",
+  "page list"
+ ],
+ [
+  25,
+  "AI Agents",
+  "Build an AI Agent to Master a Game",
+  "https://amanxai.com/2025/09/09/build-an-ai-agent-to-master-a-game-using-python/",
+  "page list"
+ ],
+ [
+  26,
+  "AI Agents",
+  "Multi-Agent Research Assistant with a Verifier",
+  "https://amanxai.com/2025/09/16/building-a-multi-agent-system-using-gemini-api/",
+  "page list"
+ ],
+ [
+  27,
+  "AI Agents",
+  "End to End Chatbot",
+  "https://amanxai.com/2023/03/27/end-to-end-chatbot-using-python/",
+  "page list"
+ ],
+ [
+  28,
+  "Deep Learning",
+  "Predictive Keyboard Model (PyTorch LSTM)",
+  "https://amanxai.com/2025/05/13/building-a-predictive-keyboard-model-with-pytorch/",
+  "page list"
+ ],
+ [
+  29,
+  "Deep Learning",
+  "Generative AI Model from Scratch (mini GPT)",
+  "https://amanxai.com/2024/08/05/generative-ai-model-from-scratch-with-python/",
+  "page list"
+ ],
+ [
+  30,
+  "Deep Learning",
+  "Synthetic Records with GANs",
+  "https://amanxai.com/2025/08/12/building-synthetic-medical-records-using-gans/",
+  "page list"
+ ]
+]

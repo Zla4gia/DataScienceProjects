@@ -1,0 +1,189 @@
+{
+ "num": [
+  "likes",
+  "followed",
+  "hrs_weekday",
+  "hrs_weekend",
+  "ctr",
+  "conv",
+  "ad_secs"
+ ],
+ "cat": [
+  "age",
+  "gender",
+  "location",
+  "language",
+  "education",
+  "device",
+  "income"
+ ],
+ "cat_values": {
+  "age": [
+   "18-24",
+   "25-34",
+   "35-44",
+   "45-54",
+   "55-64",
+   "65+"
+  ],
+  "gender": [
+   "Female",
+   "Male"
+  ],
+  "location": [
+   "Rural",
+   "Suburban",
+   "Urban"
+  ],
+  "language": [
+   "English",
+   "Hindi",
+   "Mandarin",
+   "Spanish"
+  ],
+  "education": [
+   "Bachelor",
+   "High School",
+   "Master",
+   "PhD",
+   "Technical"
+  ],
+  "device": [
+   "Desktop Only",
+   "Mobile + Desktop",
+   "Mobile Only",
+   "Tablet"
+  ],
+  "income": [
+   "0-20k",
+   "100k+",
+   "20k-40k",
+   "40k-60k",
+   "60k-80k",
+   "80k-100k"
+  ]
+ },
+ "ranges": {
+  "likes": [
+   101.0,
+   9973.0
+  ],
+  "followed": [
+   10.0,
+   498.0
+  ],
+  "hrs_weekday": [
+   0.5,
+   5.0
+  ],
+  "hrs_weekend": [
+   1.0,
+   8.0
+  ],
+  "ctr": [
+   0.0,
+   0.25
+  ],
+  "conv": [
+   0.0,
+   0.1
+  ],
+  "ad_secs": [
+   5.0,
+   179.0
+  ]
+ },
+ "defaults": {
+  "likes": 5002.5,
+  "followed": 245.5,
+  "hrs_weekday": 2.8,
+  "hrs_weekend": 4.7,
+  "ctr": 0.128,
+  "conv": 0.049,
+  "ad_secs": 90.0
+ },
+ "interest_cols": [
+  "DIY Crafts",
+  "Data Science",
+  "Digital Marketing",
+  "Eco-Friendly Living",
+  "Fashion Modelling",
+  "Fitness and Wellness",
+  "Gaming",
+  "Gardening",
+  "Gourmet Cooking",
+  "Investing and Finance",
+  "Music Production",
+  "Pet Care",
+  "Photography",
+  "Reading and Literature",
+  "Software Engineering",
+  "Travel and Adventure"
+ ],
+ "profile": [
+  {
+   "segment": "0",
+   "users": "190",
+   "ctr": "0.11",
+   "conv": "0.034",
+   "ad_secs": "127.074",
+   "hrs_weekday": "3.756",
+   "hrs_weekend": "4.865",
+   "likes": "5845.179",
+   "followed": "347.558",
+   "top_interests": "Fitness and Wellness, Gourmet Cooking, Reading and Literature"
+  },
+  {
+   "segment": "1",
+   "users": "210",
+   "ctr": "0.189",
+   "conv": "0.056",
+   "ad_secs": "112.419",
+   "hrs_weekday": "3.049",
+   "hrs_weekend": "4.837",
+   "likes": "3216.076",
+   "followed": "150.019",
+   "top_interests": "Digital Marketing, Music Production, Investing and Finance"
+  },
+  {
+   "segment": "2",
+   "users": "207",
+   "ctr": "0.062",
+   "conv": "0.043",
+   "ad_secs": "71.85",
+   "hrs_weekday": "2.723",
+   "hrs_weekend": "4.468",
+   "likes": "4955.121",
+   "followed": "121.005",
+   "top_interests": "Digital Marketing, Fitness and Wellness, Software Engineering"
+  },
+  {
+   "segment": "3",
+   "users": "186",
+   "ctr": "0.093",
+   "conv": "0.061",
+   "ad_secs": "100.151",
+   "hrs_weekday": "1.576",
+   "hrs_weekend": "5.79",
+   "likes": "4465.167",
+   "followed": "358.054",
+   "top_interests": "Fashion Modelling, Eco-Friendly Living, Digital Marketing"
+  },
+  {
+   "segment": "4",
+   "users": "207",
+   "ctr": "0.168",
+   "conv": "0.055",
+   "ad_secs": "49.14",
+   "hrs_weekday": "2.641",
+   "hrs_weekend": "3.186",
+   "likes": "6545.377",
+   "followed": "300.734",
+   "top_interests": "Data Science, Gaming, Investing and Finance"
+  }
+ ],
+ "bootstrap_ARI_mean": 0.2477115124970705,
+ "real_best_silhouette": 0.05198845546057175,
+ "null_best_silhouette_mean": 0.05276078288290024,
+ "caveat": "Segments are not statistically distinct from a shuffled null: use for illustration only."
+}

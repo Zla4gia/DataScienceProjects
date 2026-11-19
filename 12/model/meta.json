@@ -1,0 +1,43 @@
+{
+ "loo_family_%": {
+  "RGB L1 (reference)": 86.1,
+  "RGB Euclidean": 87.0,
+  "CIELAB dE76": 88.8,
+  "CIEDE2000": 88.4
+ },
+ "css_family_%": {
+  "RGB L1 (reference)": 71.8,
+  "RGB Euclidean": 70.5,
+  "CIELAB dE76": 75.6,
+  "CIEDE2000": 73.1
+ },
+ "classifiers": {
+  "k-NN, RGB": {
+   "cv_family_accuracy_%": 85.8,
+   "css_test_accuracy_%": 74.4
+  },
+  "k-NN, CIELAB": {
+   "cv_family_accuracy_%": 86.8,
+   "css_test_accuracy_%": 76.9
+  },
+  "random forest, RGB": {
+   "cv_family_accuracy_%": 85.6,
+   "css_test_accuracy_%": 71.8
+  },
+  "random forest, CIELAB": {
+   "cv_family_accuracy_%": 88.1,
+   "css_test_accuracy_%": 78.2
+  }
+ },
+ "stress": {
+  "clean": 91.7,
+  "noise sd 10": 83.3,
+  "noise sd 30": 83.3,
+  "blur": 91.7,
+  "JPEG q=10": 91.7,
+  "brightness x0.5": 66.7,
+  "brightness x0.7": 83.3,
+  "brightness x1.3": 91.7,
+  "brightness x1.6": 75.0
+ }
+}

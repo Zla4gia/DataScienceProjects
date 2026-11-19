@@ -1,0 +1,230 @@
+{
+ "cat_values": {
+  "checking_status": [
+   "0<=X<200",
+   "<0",
+   ">=200",
+   "no checking"
+  ],
+  "credit_history": [
+   "all paid",
+   "critical/other existing credit",
+   "delayed previously",
+   "existing paid",
+   "no credits/all paid"
+  ],
+  "purpose": [
+   "business",
+   "domestic appliance",
+   "education",
+   "furniture/equipment",
+   "new car",
+   "other",
+   "radio/tv",
+   "repairs",
+   "retraining",
+   "used car"
+  ],
+  "savings_status": [
+   "100<=X<500",
+   "500<=X<1000",
+   "<100",
+   ">=1000",
+   "no known savings"
+  ],
+  "employment": [
+   "1<=X<4",
+   "4<=X<7",
+   "<1",
+   ">=7",
+   "unemployed"
+  ],
+  "personal_status": [
+   "female div/dep/mar",
+   "male div/sep",
+   "male mar/wid",
+   "male single"
+  ],
+  "other_parties": [
+   "co applicant",
+   "guarantor",
+   "none"
+  ],
+  "property_magnitude": [
+   "car",
+   "life insurance",
+   "no known property",
+   "real estate"
+  ],
+  "other_payment_plans": [
+   "bank",
+   "none",
+   "stores"
+  ],
+  "housing": [
+   "for free",
+   "own",
+   "rent"
+  ],
+  "job": [
+   "high qualif/self emp/mgmt",
+   "skilled",
+   "unemp/unskilled non res",
+   "unskilled resident"
+  ],
+  "own_telephone": [
+   "none",
+   "yes"
+  ],
+  "foreign_worker": [
+   "no",
+   "yes"
+  ]
+ },
+ "ranges": {
+  "duration": [
+   4.0,
+   72.0
+  ],
+  "credit_amount": [
+   250.0,
+   18424.0
+  ],
+  "installment_commitment": [
+   1.0,
+   4.0
+  ],
+  "residence_since": [
+   1.0,
+   4.0
+  ],
+  "age": [
+   19.0,
+   75.0
+  ],
+  "existing_credits": [
+   1.0,
+   4.0
+  ],
+  "num_dependents": [
+   1.0,
+   2.0
+  ]
+ },
+ "defaults": {
+  "duration": 18.0,
+  "credit_amount": 2319.5,
+  "installment_commitment": 3.0,
+  "residence_since": 3.0,
+  "age": 33.0,
+  "existing_credits": 1.0,
+  "num_dependents": 1.0
+ },
+ "cat_default": {
+  "checking_status": "no checking",
+  "credit_history": "existing paid",
+  "purpose": "radio/tv",
+  "savings_status": "<100",
+  "employment": "1<=X<4",
+  "personal_status": "male single",
+  "other_parties": "none",
+  "property_magnitude": "car",
+  "other_payment_plans": "none",
+  "housing": "own",
+  "job": "skilled",
+  "own_telephone": "none",
+  "foreign_worker": "yes"
+ },
+ "bad_rate": 0.3,
+ "tiers": [
+  {
+   "index": "E (highest risk)",
+   "applicants": "200",
+   "bad_rate": "0.635",
+   "score_min": "361.0",
+   "score_max": "452.0"
+  },
+  {
+   "index": "D",
+   "applicants": "200",
+   "bad_rate": "0.415",
+   "score_min": "452.0",
+   "score_max": "484.0"
+  },
+  {
+   "index": "C",
+   "applicants": "200",
+   "bad_rate": "0.265",
+   "score_min": "484.0",
+   "score_max": "519.0"
+  },
+  {
+   "index": "B",
+   "applicants": "200",
+   "bad_rate": "0.135",
+   "score_min": "519.0",
+   "score_max": "555.0"
+  },
+  {
+   "index": "A (lowest risk)",
+   "applicants": "200",
+   "bad_rate": "0.05",
+   "score_min": "555.0",
+   "score_max": "669.0"
+  }
+ ],
+ "cv": {
+  "scorecard (WoE + logistic, 20 vars)": {
+   "AUC": 0.786,
+   "AUC_sd_over_repeats": 0.002,
+   "Gini": 0.572,
+   "KS": 0.467
+  },
+  "scorecard, top 10 by IV": {
+   "AUC": 0.776,
+   "AUC_sd_over_repeats": 0.003,
+   "Gini": 0.553,
+   "KS": 0.455
+  },
+  "logistic on dummies": {
+   "AUC": 0.788,
+   "AUC_sd_over_repeats": 0.004,
+   "Gini": 0.576,
+   "KS": 0.46
+  },
+  "gradient boosting": {
+   "AUC": 0.781,
+   "AUC_sd_over_repeats": 0.003,
+   "Gini": 0.562,
+   "KS": 0.446
+  }
+ },
+ "iv": {
+  "checking_status": 0.659,
+  "credit_history": 0.291,
+  "duration": 0.213,
+  "savings_status": 0.188,
+  "purpose": 0.164,
+  "property_magnitude": 0.112,
+  "credit_amount": 0.092,
+  "employment": 0.086,
+  "housing": 0.084,
+  "age": 0.067,
+  "other_payment_plans": 0.058,
+  "personal_status": 0.045,
+  "foreign_worker": 0.039,
+  "other_parties": 0.031,
+  "installment_commitment": 0.025,
+  "job": 0.009,
+  "own_telephone": 0.006,
+  "existing_credits": 0.003,
+  "residence_since": 0.0,
+  "num_dependents": 0.0
+ },
+ "tier_edges": [
+  451.92689479317306,
+  484.331793763223,
+  519.333905734525,
+  555.0430013098031
+ ]
+}

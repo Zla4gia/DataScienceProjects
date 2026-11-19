@@ -1,0 +1,125 @@
+{
+ "baselines": {
+  "uniform": 4.1744,
+  "0-char context (n-gram)": 3.3473,
+  "1-char context (n-gram)": 2.4849,
+  "2-char context (n-gram)": 2.05,
+  "4-char context (n-gram)": 1.7565
+ },
+ "val_loss": 1.5458476841449738,
+ "context": {
+  "1": 2.5184,
+  "2": 2.1123,
+  "4": 1.6987,
+  "8": 1.577,
+  "16": 1.5533,
+  "32": 1.536,
+  "64": 1.5343,
+  "128": 1.5234
+ },
+ "generation": {
+  "transformer, T=0.5": {
+   "valid words %": 97.9,
+   "repeated word 3-grams %": 0.67,
+   "distinct 12-grams %": 99.23,
+   "40-char strings copied from training %": 0.0
+  },
+  "transformer, T=0.8": {
+   "valid words %": 92.56,
+   "repeated word 3-grams %": 0.0,
+   "distinct 12-grams %": 99.97,
+   "40-char strings copied from training %": 0.0
+  },
+  "transformer, T=1.0": {
+   "valid words %": 89.24,
+   "repeated word 3-grams %": 0.05,
+   "distinct 12-grams %": 99.91,
+   "40-char strings copied from training %": 0.0
+  },
+  "transformer, T=1.3": {
+   "valid words %": 76.71,
+   "repeated word 3-grams %": 0.0,
+   "distinct 12-grams %": 99.99,
+   "40-char strings copied from training %": 0.0
+  },
+  "4-char n-gram, T=1.0": {
+   "valid words %": 89.36,
+   "repeated word 3-grams %": 0.0,
+   "distinct 12-grams %": 99.9,
+   "40-char strings copied from training %": 0.0
+  },
+  "real validation text": {
+   "valid words %": 98.97,
+   "repeated word 3-grams %": 0.68,
+   "distinct 12-grams %": 98.3,
+   "40-char strings copied from training %": 0.0
+  }
+ },
+ "history": [
+  [
+   1,
+   3.5214956760406495,
+   3.5345272421836853
+  ],
+  [
+   250,
+   2.020219612121582,
+   2.0720906376838686
+  ],
+  [
+   500,
+   1.707821336388588,
+   1.8729351162910461
+  ],
+  [
+   750,
+   1.5736991196870804,
+   1.7536061078310012
+  ],
+  [
+   1000,
+   1.5110132962465286,
+   1.7028296053409577
+  ],
+  [
+   1250,
+   1.4612318247556686,
+   1.6620027124881744
+  ],
+  [
+   1500,
+   1.4327243447303772,
+   1.6288480401039123
+  ],
+  [
+   1750,
+   1.3915609806776046,
+   1.5903547793626784
+  ],
+  [
+   2000,
+   1.374709576368332,
+   1.5899733781814576
+  ],
+  [
+   2250,
+   1.3572434872388839,
+   1.574151086807251
+  ],
+  [
+   2500,
+   1.3387737691402435,
+   1.559308823943138
+  ],
+  [
+   2750,
+   1.3241771847009658,
+   1.551036286354065
+  ],
+  [
+   3000,
+   1.3189506560564042,
+   1.5458476841449738
+  ]
+ ]
+}

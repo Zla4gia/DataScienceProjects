@@ -1,0 +1,52 @@
+{
+ "in_scope_accuracy": {
+  "TF-IDF + logistic regression": 91.38,
+  "MiniLM + logistic regression": 95.31,
+  "MiniLM + 5-NN": 89.89
+ },
+ "oos": {
+  "never refuse (most likely intent)": {
+   "in-scope accuracy %": 95.31,
+   "out-of-scope recall %": 0.0,
+   "out-of-scope precision %": NaN
+  },
+  "confidence threshold (0.79)": {
+   "in-scope accuracy %": 86.04,
+   "out-of-scope recall %": 91.7,
+   "out-of-scope precision %": 60.73
+  },
+  "trained 'oos' class": {
+   "in-scope accuracy %": 95.04,
+   "out-of-scope recall %": 60.6,
+   "out-of-scope precision %": 96.04
+  }
+ },
+ "typos": {
+  "0.0": {
+   "TF-IDF + LR": 91.38,
+   "MiniLM + LR": 95.31,
+   "MiniLM + 5-NN": 89.89
+  },
+  "0.04": {
+   "TF-IDF + LR": 81.11,
+   "MiniLM + LR": 84.73,
+   "MiniLM + 5-NN": 82.04
+  },
+  "0.08": {
+   "TF-IDF + LR": 71.84,
+   "MiniLM + LR": 74.07,
+   "MiniLM + 5-NN": 72.84
+  },
+  "0.15": {
+   "TF-IDF + LR": 55.02,
+   "MiniLM + LR": 52.51,
+   "MiniLM + 5-NN": 55.71
+  }
+ },
+ "script_accuracy": 1.0,
+ "threshold": 0.79,
+ "latency_ms": {
+  "tfidf": 1.704796552658081,
+  "minilm": 121.33291244506836
+ }
+}

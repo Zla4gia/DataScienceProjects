@@ -1,0 +1,82 @@
+{
+ "test": {
+  "hybrid": {
+   "recall@10": 0.1978,
+   "ndcg@10": 0.189,
+   "hit@10": 0.6373,
+   "coverage_%": 20.2735,
+   "novelty": 8.3598,
+   "genre_diversity": 0.6002
+  },
+  "SVD": {
+   "recall@10": 0.1818,
+   "ndcg@10": 0.1749,
+   "hit@10": 0.613,
+   "coverage_%": 25.2675,
+   "novelty": 8.5738,
+   "genre_diversity": 0.7019
+  },
+  "item-kNN": {
+   "recall@10": 0.1784,
+   "ndcg@10": 0.1735,
+   "hit@10": 0.5943,
+   "coverage_%": 13.4364,
+   "novelty": 7.9268,
+   "genre_diversity": 0.7044
+  },
+  "popularity": {
+   "recall@10": 0.1034,
+   "ndcg@10": 0.1041,
+   "hit@10": 0.4366,
+   "coverage_%": 4.5184,
+   "novelty": 7.451,
+   "genre_diversity": 0.691
+  },
+  "content": {
+   "recall@10": 0.0169,
+   "ndcg@10": 0.0171,
+   "hit@10": 0.1213,
+   "coverage_%": 48.8704,
+   "novelty": 12.5855,
+   "genre_diversity": 0.0885
+  }
+ },
+ "cold": {
+  "SVD": {
+   "NDCG@10 on cold movies": 0.0527,
+   "NDCG@10, users with only 3 ratings": 0.0257,
+   "NDCG@10 normal": 0.1749
+  },
+  "content": {
+   "NDCG@10 on cold movies": 0.0083,
+   "NDCG@10, users with only 3 ratings": 0.0111,
+   "NDCG@10 normal": 0.0171
+  },
+  "hybrid": {
+   "NDCG@10 on cold movies": 0.0568,
+   "NDCG@10, users with only 3 ratings": 0.0347,
+   "NDCG@10 normal": 0.189
+  },
+  "item-kNN": {
+   "NDCG@10 on cold movies": 0.0521,
+   "NDCG@10, users with only 3 ratings": 0.0346,
+   "NDCG@10 normal": 0.1735
+  },
+  "popularity": {
+   "NDCG@10 on cold movies": 0.0198,
+   "NDCG@10, users with only 3 ratings": 0.0521,
+   "NDCG@10 normal": 0.1041
+  }
+ },
+ "rmse": {
+  "global mean": 1.208,
+  "user + item bias": 1.018,
+  "biased matrix factorisation (SGD)": 0.976
+ },
+ "weights": {
+  "popularity": 0.0,
+  "content": 0.5,
+  "itemKNN": 1.0,
+  "SVD": 0.5
+ }
+}

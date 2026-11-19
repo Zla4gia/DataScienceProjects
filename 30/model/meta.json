@@ -1,0 +1,85 @@
+{
+ "scores": {
+  "resample": {
+   "KS": 0.0286,
+   "corr diff": 0.3554,
+   "distinguisher AUC": 0.2285,
+   "TSTR LR AUC": 0.8722,
+   "TSTR RF AUC": 0.8373,
+   "DCR median": 0.0,
+   "near-copies %": 100.0,
+   "hold-out DCR median (reference)": 1.0157,
+   "membership AUC": 0.8231
+  },
+  "independent columns": {
+   "KS": 0.0298,
+   "corr diff": 1.8489,
+   "distinguisher AUC": 0.8028,
+   "TSTR LR AUC": 0.2791,
+   "TSTR RF AUC": 0.4798,
+   "DCR median": 1.3269,
+   "near-copies %": 0.0,
+   "hold-out DCR median (reference)": 1.0157,
+   "membership AUC": 0.5137
+  },
+  "Gaussian copula": {
+   "KS": 0.0321,
+   "corr diff": 0.4226,
+   "distinguisher AUC": 0.5866,
+   "TSTR LR AUC": 0.8544,
+   "TSTR RF AUC": 0.8,
+   "DCR median": 1.1455,
+   "near-copies %": 0.0,
+   "hold-out DCR median (reference)": 1.0157,
+   "membership AUC": 0.4843
+  },
+  "GAN (seed 0)": {
+   "KS": 0.1269,
+   "corr diff": 0.7596,
+   "distinguisher AUC": 0.749,
+   "TSTR LR AUC": 0.8562,
+   "TSTR RF AUC": 0.81,
+   "DCR median": 1.2299,
+   "near-copies %": 0.0,
+   "hold-out DCR median (reference)": 1.0157,
+   "membership AUC": 0.5226
+  },
+  "GAN (seed 1)": {
+   "KS": 0.1117,
+   "corr diff": 0.7988,
+   "distinguisher AUC": 0.7638,
+   "TSTR LR AUC": 0.8693,
+   "TSTR RF AUC": 0.8067,
+   "DCR median": 1.2183,
+   "near-copies %": 0.0,
+   "hold-out DCR median (reference)": 1.0157,
+   "membership AUC": 0.5137
+  },
+  "GAN (seed 2)": {
+   "KS": 0.1313,
+   "corr diff": 0.6185,
+   "distinguisher AUC": 0.758,
+   "TSTR LR AUC": 0.8426,
+   "TSTR RF AUC": 0.8116,
+   "DCR median": 1.2399,
+   "near-copies %": 0.0,
+   "hold-out DCR median (reference)": 1.0157,
+   "membership AUC": 0.5189
+  },
+  "real hold-out (reference)": {
+   "KS": 0.0769,
+   "corr diff": 0.6702,
+   "distinguisher AUC": NaN,
+   "TSTR LR AUC": 0.8714,
+   "TSTR RF AUC": 0.8499,
+   "DCR median": 1.0157,
+   "near-copies %": 0.0,
+   "hold-out DCR median (reference)": 1.0157,
+   "membership AUC": NaN
+  }
+ },
+ "trtr": {
+  "logistic regression": 0.871440329218107,
+  "random forest": 0.8498765432098765
+ }
+}

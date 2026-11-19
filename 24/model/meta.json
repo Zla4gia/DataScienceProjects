@@ -1,0 +1,114 @@
+{
+ "trend": {
+  "ANNUAL": {
+   "OLS mm/decade": -2.9666,
+   "ci_low": -12.0659,
+   "ci_high": 6.1328,
+   "OLS p": 0.5228,
+   "Sen slope mm/decade": -2.7222,
+   "Mann-Kendall p": 0.3895,
+   "OLS % of mean per decade": -0.251
+  },
+  "Jan-Feb": {
+   "OLS mm/decade": -0.7101,
+   "ci_low": -1.3541,
+   "ci_high": -0.0662,
+   "OLS p": 0.0307,
+   "Sen slope mm/decade": -0.716,
+   "Mann-Kendall p": 0.081,
+   "OLS % of mean per decade": -1.6442
+  },
+  "Mar-May": {
+   "OLS mm/decade": 0.3128,
+   "ci_low": -1.1979,
+   "ci_high": 1.8234,
+   "OLS p": 0.6849,
+   "Sen slope mm/decade": 0.1702,
+   "Mann-Kendall p": 0.8015,
+   "OLS % of mean per decade": 0.243
+  },
+  "Jun-Sep": {
+   "OLS mm/decade": -2.2606,
+   "ci_low": -8.508,
+   "ci_high": 3.9869,
+   "OLS p": 0.4782,
+   "Sen slope mm/decade": -2.5357,
+   "Mann-Kendall p": 0.3135,
+   "OLS % of mean per decade": -0.2539
+  },
+  "Oct-Dec": {
+   "OLS mm/decade": -0.3103,
+   "ci_low": -2.5357,
+   "ci_high": 1.9152,
+   "OLS p": 0.7847,
+   "Sen slope mm/decade": -0.25,
+   "Mann-Kendall p": 0.841,
+   "OLS % of mean per decade": -0.2588
+  }
+ },
+ "dry_1.5sd": [
+  1905,
+  1965,
+  1972,
+  2002,
+  2009
+ ],
+ "wet_1.5sd": [
+  1917,
+  1933,
+  1956,
+  1959,
+  1961,
+  1988,
+  1990
+ ],
+ "dry_1sd": [
+  1901,
+  1902,
+  1904,
+  1905,
+  1907,
+  1911,
+  1913,
+  1918,
+  1920,
+  1951,
+  1965,
+  1966,
+  1968,
+  1972,
+  1974,
+  1979,
+  2000,
+  2002,
+  2004,
+  2009,
+  2014
+ ],
+ "wet_1sd": [
+  1916,
+  1917,
+  1919,
+  1931,
+  1933,
+  1936,
+  1938,
+  1942,
+  1944,
+  1946,
+  1948,
+  1955,
+  1956,
+  1958,
+  1959,
+  1961,
+  1983,
+  1988,
+  1990,
+  1994
+ ],
+ "mean_mm": 1182.0347826086959,
+ "sd_mm": 110.20391932072285,
+ "acf_lag1": 0.12500212749737363,
+ "anova_thirds_p": 0.22984031015527484
+}

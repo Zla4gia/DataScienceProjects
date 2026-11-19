@@ -1,0 +1,38 @@
+{
+ "n_songs": 81195,
+ "evaluation": {
+  "1 raw features": {
+   "genre_precision@10": 0.053,
+   "same_artist_rate": 0.0033,
+   "diversity": 0.0,
+   "never_recommended_%": 13.3952,
+   "top1%_songs_share_of_slots_%": 3.5704,
+   "occurrence_skew": 0.8732
+  },
+  "2 standardised": {
+   "genre_precision@10": 0.1535,
+   "same_artist_rate": 0.0163,
+   "diversity": 0.0667,
+   "never_recommended_%": 13.3383,
+   "top1%_songs_share_of_slots_%": 3.6283,
+   "occurrence_skew": 0.9154
+  },
+  "3 PCA-whitened": {
+   "genre_precision@10": 0.1498,
+   "same_artist_rate": 0.0165,
+   "diversity": 0.0874,
+   "never_recommended_%": 12.7178,
+   "top1%_songs_share_of_slots_%": 3.6572,
+   "occurrence_skew": 0.9232
+  },
+  "4 learned embedding (genre net)": {
+   "genre_precision@10": 0.1662,
+   "same_artist_rate": 0.0191,
+   "diversity": 0.0251,
+   "never_recommended_%": 12.7563,
+   "top1%_songs_share_of_slots_%": 3.595,
+   "occurrence_skew": 0.8921
+  }
+ },
+ "random_genre_precision": 0.0125
+}

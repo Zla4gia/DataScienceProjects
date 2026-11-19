@@ -1,0 +1,210 @@
+{
+ "best": "XGBoost",
+ "cat_values": {
+  "gender": [
+   "Female",
+   "Male"
+  ],
+  "Partner": [
+   "No",
+   "Yes"
+  ],
+  "Dependents": [
+   "No",
+   "Yes"
+  ],
+  "PhoneService": [
+   "No",
+   "Yes"
+  ],
+  "MultipleLines": [
+   "'No phone service'",
+   "No",
+   "Yes"
+  ],
+  "InternetService": [
+   "'Fiber optic'",
+   "DSL",
+   "No"
+  ],
+  "OnlineSecurity": [
+   "'No internet service'",
+   "No",
+   "Yes"
+  ],
+  "OnlineBackup": [
+   "'No internet service'",
+   "No",
+   "Yes"
+  ],
+  "DeviceProtection": [
+   "'No internet service'",
+   "No",
+   "Yes"
+  ],
+  "TechSupport": [
+   "'No internet service'",
+   "No",
+   "Yes"
+  ],
+  "StreamingTV": [
+   "'No internet service'",
+   "No",
+   "Yes"
+  ],
+  "StreamingMovies": [
+   "'No internet service'",
+   "No",
+   "Yes"
+  ],
+  "Contract": [
+   "'One year'",
+   "'Two year'",
+   "Month-to-month"
+  ],
+  "PaperlessBilling": [
+   "No",
+   "Yes"
+  ],
+  "PaymentMethod": [
+   "'Bank transfer (automatic)'",
+   "'Credit card (automatic)'",
+   "'Electronic check'",
+   "'Mailed check'"
+  ]
+ },
+ "ranges": {
+  "tenure": [
+   0.0,
+   72.0
+  ],
+  "MonthlyCharges": [
+   18.25,
+   118.75
+  ],
+  "TotalCharges": [
+   0.0,
+   8684.8
+  ],
+  "SeniorCitizen": [
+   0.0,
+   1.0
+  ]
+ },
+ "defaults": {
+  "tenure": 29.0,
+  "MonthlyCharges": 70.35,
+  "TotalCharges": 1394.55,
+  "SeniorCitizen": 0.0
+ },
+ "cat_default": {
+  "gender": "Male",
+  "Partner": "No",
+  "Dependents": "No",
+  "PhoneService": "Yes",
+  "MultipleLines": "No",
+  "InternetService": "'Fiber optic'",
+  "OnlineSecurity": "No",
+  "OnlineBackup": "No",
+  "DeviceProtection": "No",
+  "TechSupport": "No",
+  "StreamingTV": "No",
+  "StreamingMovies": "No",
+  "Contract": "Month-to-month",
+  "PaperlessBilling": "Yes",
+  "PaymentMethod": "'Electronic check'"
+ },
+ "churn_rate": 0.2653698707936959,
+ "cv": {
+  "XGBoost": {
+   "AUC": 0.8486,
+   "AUC_sd": 0.0132,
+   "PR_AUC": 0.6682,
+   "fit_seconds": 0.4226
+  },
+  "AdaBoost": {
+   "AUC": 0.8484,
+   "AUC_sd": 0.0129,
+   "PR_AUC": 0.6658,
+   "fit_seconds": 0.8769
+  },
+  "LightGBM": {
+   "AUC": 0.8484,
+   "AUC_sd": 0.0128,
+   "PR_AUC": 0.6679,
+   "fit_seconds": 0.1565
+  },
+  "gradient boosting (sklearn)": {
+   "AUC": 0.8482,
+   "AUC_sd": 0.013,
+   "PR_AUC": 0.6662,
+   "fit_seconds": 0.3545
+  },
+  "CatBoost": {
+   "AUC": 0.8478,
+   "AUC_sd": 0.013,
+   "PR_AUC": 0.6655,
+   "fit_seconds": 0.6434
+  },
+  "logistic regression": {
+   "AUC": 0.8452,
+   "AUC_sd": 0.0136,
+   "PR_AUC": 0.6555,
+   "fit_seconds": 0.0505
+  },
+  "random forest": {
+   "AUC": 0.8447,
+   "AUC_sd": 0.0121,
+   "PR_AUC": 0.6577,
+   "fit_seconds": 0.6666
+  },
+  "neural net (64,32)": {
+   "AUC": 0.841,
+   "AUC_sd": 0.0124,
+   "PR_AUC": 0.6451,
+   "fit_seconds": 0.5825
+  },
+  "extra trees": {
+   "AUC": 0.8373,
+   "AUC_sd": 0.0126,
+   "PR_AUC": 0.6399,
+   "fit_seconds": 0.5891
+  },
+  "decision tree (depth 5)": {
+   "AUC": 0.8304,
+   "AUC_sd": 0.0141,
+   "PR_AUC": 0.6125,
+   "fit_seconds": 0.0445
+  },
+  "k-nearest neighbours (k=25)": {
+   "AUC": 0.83,
+   "AUC_sd": 0.0121,
+   "PR_AUC": 0.607,
+   "fit_seconds": 0.0495
+  },
+  "naive Bayes": {
+   "AUC": 0.818,
+   "AUC_sd": 0.0157,
+   "PR_AUC": 0.6081,
+   "fit_seconds": 0.0404
+  },
+  "SVM (RBF)": {
+   "AUC": 0.7986,
+   "AUC_sd": 0.0109,
+   "PR_AUC": 0.6363,
+   "fit_seconds": 0.5308
+  },
+  "majority class": {
+   "AUC": 0.5,
+   "AUC_sd": 0.0,
+   "PR_AUC": 0.2654,
+   "fit_seconds": 0.0311
+  }
+ },
+ "campaign_best_share": 0.44,
+ "assumptions": {
+  "value_saved": 400.0,
+  "cost_contact": 25.0,
+  "save_rate": 0.3
+ }
+}

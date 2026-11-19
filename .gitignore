@@ -1,0 +1,19 @@
+# data downloaded by the notebooks on first run (can be several hundred MB)
+_data/
+_spare/
+hf_space/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.venv/
+.virtual_documents/
+Untitled*.ipynb
+
+# model files too large for a normal Git repository (the notebooks recreate them)
+13/model/distilbert_20ng/
+*.safetensors
+*.ckpt
+
+catboost_info/
+

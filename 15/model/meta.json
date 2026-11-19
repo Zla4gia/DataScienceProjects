@@ -1,0 +1,106 @@
+{
+ "retrieval_hit_pct": {
+  "TF-IDF": {
+   "hit@1": 64.3,
+   "hit@3": 92.9,
+   "hit@5": 92.9
+  },
+  "MiniLM": {
+   "hit@1": 85.7,
+   "hit@3": 100.0,
+   "hit@5": 100.0
+  },
+  "hybrid": {
+   "hit@1": 85.7,
+   "hit@3": 92.9,
+   "hit@5": 100.0
+  }
+ },
+ "qa": {
+  "EM": 0.21428571428571427,
+  "F1": 0.5987466237466237,
+  "contained": 0.7857142857142857
+ },
+ "coverage": {
+  "reference style: summary of first 512 tokens": {
+   "facts covered (of 14)": 0,
+   "summary words": 36
+  },
+  "per-section summaries joined": {
+   "facts covered (of 14)": 8,
+   "summary words": 757
+  },
+  "first 120 words of the document": {
+   "facts covered (of 14)": 0,
+   "summary words": 120
+  }
+ },
+ "gold": [
+  [
+   "What is the minimum age to use GitHub?",
+   "You must be age 13 or older"
+  ],
+  [
+   "Can I cancel my account by sending an email?",
+   "We are not able to cancel Accounts in response to an email or phone request"
+  ],
+  [
+   "How much notice does GitHub give before material changes to the terms take effect?",
+   "at least 30 days prior to the change taking effect"
+  ],
+  [
+   "How long after cancellation does GitHub delete my profile and repository content?",
+   "within 90 days of cancellation or termination"
+  ],
+  [
+   "Are payments refundable?",
+   "is non-refundable"
+  ],
+  [
+   "How many free accounts may one person have?",
+   "no more than one free Account"
+  ],
+  [
+   "Are accounts created by bots allowed?",
+   "Accounts registered by \"bots\" or other automated methods are not permitted"
+  ],
+  [
+   "How can I stop GitHub using my AI inputs and outputs for model training?",
+   "you opt out through your account settings"
+  ],
+  [
+   "How long do I have to ask for a copy of my account contents after cancellation?",
+   "within 90 days of cancellation, termination, or downgrade"
+  ],
+  [
+   "When am I billed if I upgrade from the free plan?",
+   "We will immediately bill you when you upgrade from the free plan"
+  ],
+  [
+   "Is the service billed in advance or in arrears for monthly and yearly plans?",
+   "billed in advance on a monthly or yearly basis"
+  ],
+  [
+   "Does GitHub delete my contributions to other users' repositories when I cancel?",
+   "We will not delete Content that you have contributed to other Users' repositories"
+  ],
+  [
+   "Can several people share one login?",
+   "a single login may not be shared by multiple people"
+  ],
+  [
+   "When can the price of a subscription change?",
+   "prices are subject to change at the end of a payment term"
+  ]
+ ],
+ "unanswerable": [
+  "Who is the chief executive officer of GitHub?",
+  "What is GitHub's customer support phone number?",
+  "Which programming languages does GitHub support?",
+  "Does GitHub offer a discount for students?"
+ ],
+ "readers": {
+  "retriever": "all-MiniLM-L6-v2 + TF-IDF",
+  "reader": "distilbert/distilbert-base-cased-distilled-squad"
+ }
+}
