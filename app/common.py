@@ -8,7 +8,7 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
 APP_DIR = Path(__file__).resolve().parent
-REPO_URL = "https://github.com/YOUR-GITHUB-USERNAME/skill-enhancement"      # replaced when the repository is published
+REPO_URL = "https://github.com/Zla4gia/DataScienceProjects"
 
 
 def mdir(n: int) -> Path:
