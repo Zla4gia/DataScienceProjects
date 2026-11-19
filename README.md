@@ -4,7 +4,7 @@ Thirty practice projects, three per topic across ten topics (regression, classif
 
 Every folder holds an executed notebook (outputs included), a README generated from the notebook, and a `model/` folder with the trained models. One multipage Streamlit app (`app/`) lets you try the saved models.
 
-> **Status: draft for review.** Nothing has been published yet. The GitHub repository and Hugging Face Space links will be added here after the review.
+> **Status: reviewed, ready to publish.** The GitHub repository and Hugging Face Space links will be added here once they exist.
 
 ## Where to start
 
