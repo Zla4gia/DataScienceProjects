@@ -17,3 +17,6 @@ Untitled*.ipynb
 
 catboost_info/
 
+
+hf_models/
+hf_static/
