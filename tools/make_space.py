@@ -26,7 +26,8 @@ for f in ["app.py", "common.py", "projects.json"]:
 shutil.copytree(app / "pages", OUT / "pages", ignore=shutil.ignore_patterns("__pycache__"))
 skipped = []
 for n in range(1, 31):
-    src = ROOT / f"{n:02d}" / "model"
+    folder = next(iter(sorted(ROOT.glob(f"{n:02d} *"))), ROOT / f"{n:02d}")
+    src = folder / "model"
     if not src.exists():
         continue
     for p in src.rglob("*"):

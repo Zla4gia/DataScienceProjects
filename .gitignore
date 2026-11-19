@@ -11,7 +11,7 @@ __pycache__/
 Untitled*.ipynb
 
 # model files too large for a normal Git repository (the notebooks recreate them)
-13/model/distilbert_20ng/
+**/distilbert_20ng/
 *.safetensors
 *.ckpt
 

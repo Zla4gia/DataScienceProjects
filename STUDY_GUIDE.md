@@ -10,7 +10,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 01 - Car Insurance Modelling
-**Topic:** Regression  |  [reference article](https://amanxai.com/2024/01/08/car-insurance-modelling-using-python/)  |  folder `01/`
+**Topic:** Regression  |  [reference article](https://amanxai.com/2024/01/08/car-insurance-modelling-using-python/)  |  folder `01 Car Insurance Modelling - Regression/`
 
 **Reference approach.** a Poisson GLM (statsmodels) on a small 1,000-row file with 3 predictors (it looks synthetic; I could not rerun it because its data file is no longer online), no exposure, no hold-out score.
 
@@ -29,7 +29,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 02 - Price Elasticity of Demand Analysis
-**Topic:** Regression  |  [reference article](https://amanxai.com/2024/08/19/price-elasticity-of-demand-analysis-with-python/)  |  folder `02/`
+**Topic:** Regression  |  [reference article](https://amanxai.com/2024/08/19/price-elasticity-of-demand-analysis-with-python/)  |  folder `02 Price Elasticity of Demand - Regression/`
 
 **Reference approach.** compute `pct_change()` of price and of quantity row by row and divide. **My method:** first check how the file is built, then estimate one elasticity with a log-log regression that compares each store-item *with itself* over time, and test whether a model that uses price predicts next week's sales better than one that ignores it.
 
@@ -59,7 +59,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 03 - Bike Sharing Demand
-**Topic:** Regression  |  not from the lists  |  folder `03/`
+**Topic:** Regression  |  not from the lists  |  folder `03 Bike Sharing Demand - Regression/`
 
 **Reference approach.** see the notebook's first cell.
 
@@ -87,7 +87,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 04 - Loan Approval Prediction
-**Topic:** Classification  |  [reference article](https://amanxai.com/2023/05/15/loan-approval-prediction-using-python/)  |  folder `04/`
+**Topic:** Classification  |  [reference article](https://amanxai.com/2023/05/15/loan-approval-prediction-using-python/)  |  folder `04 Loan Approval Prediction - Classification/`
 
 **Reference approach.** fill missing values, one random 80/20 split, `StandardScaler` + random forest, report one accuracy.
 
@@ -115,7 +115,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 05 - Credit Scoring and Risk Tiers
-**Topic:** Classification  |  [reference article](https://amanxai.com/2023/07/03/credit-scoring-and-segmentation-using-python/)  |  folder `05/`
+**Topic:** Classification  |  [reference article](https://amanxai.com/2023/07/03/credit-scoring-and-segmentation-using-python/)  |  folder `05 Credit Scoring and Risk Tiers - Classification/`
 
 **Reference approach.** a 1,000-row synthetic table with **no repayment outcome**; the score is a hand-weighted formula over a few columns, then k-means groups the scores. Nothing in it can tell whether the score predicts defaults.
 
@@ -143,7 +143,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 06 - Customer Churn: Comparing Many Models
-**Topic:** Classification  |  [reference article](https://amanxai.com/2024/02/19/compare-multiple-machine-learning-models/)  |  folder `06/`
+**Topic:** Classification  |  [reference article](https://amanxai.com/2024/02/19/compare-multiple-machine-learning-models/)  |  folder `06 Customer Churn Model Comparison - Classification/`
 
 **Reference approach.** "Compare Multiple Machine Learning Models" (amanxai.com, Feb 2024)
 
@@ -171,7 +171,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 07 - Geospatial Clustering (earthquake hotspots)
-**Topic:** Clustering  |  [reference article](https://amanxai.com/2025/04/22/geospatial-clustering-with-python/)  |  folder `07/`
+**Topic:** Clustering  |  [reference article](https://amanxai.com/2025/04/22/geospatial-clustering-with-python/)  |  folder `07 Geospatial Clustering - Earthquake Hotspots - Clustering/`
 
 **Reference approach.** k-means on food-delivery coordinates (Kaggle data, not downloadable here) to create delivery zones, plus a `geodesic` distance calculation.
 
@@ -199,7 +199,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 08 - User Profiling & Segmentation
-**Topic:** Clustering  |  [reference article](https://amanxai.com/2024/02/26/user-profiling-and-segmentation-using-python/)  |  folder `08/`
+**Topic:** Clustering  |  [reference article](https://amanxai.com/2024/02/26/user-profiling-and-segmentation-using-python/)  |  folder `08 User Profiling and Segmentation - Clustering/`
 
 **Reference approach.** pick some columns, scale/one-hot them, run k-means with a chosen k, describe each cluster.
 
@@ -227,7 +227,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 09 - RFM Analysis
-**Topic:** Clustering  |  [reference article](https://amanxai.com/2025/08/26/a-guide-to-rfm-analysis-using-python/)  |  folder `09/`
+**Topic:** Clustering  |  [reference article](https://amanxai.com/2025/08/26/a-guide-to-rfm-analysis-using-python/)  |  folder `09 RFM Analysis - Clustering/`
 
 **Reference approach.** compute R, F, M per customer, score each 1-4 by quartiles, concatenate the scores into segments.
 
@@ -255,7 +255,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 10 - Handwriting Recognition
-**Topic:** Computer Vision  |  [reference article](https://amanxai.com/2020/10/10/handwriting-recognition-with-python/)  |  folder `10/`
+**Topic:** Computer Vision  |  [reference article](https://amanxai.com/2020/10/10/handwriting-recognition-with-python/)  |  folder `10 Handwriting Recognition - Computer Vision/`
 
 **Reference approach.** k-nearest-neighbours on 32x32 black-and-white images flattened into 1,024-long vectors (a small teaching data set that is not publicly downloadable).
 
@@ -283,7 +283,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 11 - Sign Language Classification
-**Topic:** Computer Vision  |  [reference article](https://amanxai.com/2020/12/05/sign-language-classification-with-python/)  |  folder `11/`
+**Topic:** Computer Vision  |  [reference article](https://amanxai.com/2020/12/05/sign-language-classification-with-python/)  |  folder `11 Sign Language Classification - Computer Vision/`
 
 **Reference approach.** Kaggle "Sign Language MNIST" (28x28 grey-scale pixels, a separate test file), a small Keras network and image augmentation, one accuracy report. (That Kaggle file needs an account; it is not on the public Hugging Face hub in a loadable form, so I use a different public data set below.)
 
@@ -312,7 +312,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 12 - Flower Recognition
-**Topic:** Computer Vision  |  [reference article](https://amanxai.com/2020/11/24/flower-recognition-with-python/)  |  folder `12/`
+**Topic:** Computer Vision  |  [reference article](https://amanxai.com/2020/11/24/flower-recognition-with-python/)  |  folder `12 Colour Recognition - Computer Vision/`
 
 **Reference approach.** a CSV of ~1,000 colour names with RGB values; for a clicked pixel, loop over every row and return the name with the smallest **sum of absolute RGB differences** (an OpenCV double-click program).
 
@@ -341,7 +341,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 13 - Text Classification Pipeline with Hugging Face Transformers
-**Topic:** NLP  |  [reference article](https://amanxai.com/2025/07/22/text-classification-pipeline-with-hugging-face-transformers/)  |  folder `13/`
+**Topic:** NLP  |  [reference article](https://amanxai.com/2025/07/22/text-classification-pipeline-with-hugging-face-transformers/)  |  folder `13 Text Classification Pipeline - NLP/`
 
 **Reference approach.** the 20 Newsgroups data (headers, footers and quotes removed), a **random 80/20 split** of all 18,846 posts, DistilBERT fine-tuned with the Hugging Face `Trainer`.
 
@@ -369,7 +369,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 14 - Text Summarization
-**Topic:** NLP  |  [reference article](https://amanxai.com/2024/10/07/text-summarization-model-using-llms/)  |  folder `14/`
+**Topic:** NLP  |  [reference article](https://amanxai.com/2024/10/07/text-summarization-model-using-llms/)  |  folder `14 Text Summarization - NLP/`
 
 **Reference approach.** load `t5-small`, summarise **one** hand-picked text, look at the output. No score, no comparison.
 
@@ -397,7 +397,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 15 - Document Analysis
-**Topic:** NLP  |  [reference article](https://amanxai.com/2024/10/21/document-analysis-using-llms-with-python/)  |  folder `15/`
+**Topic:** NLP  |  [reference article](https://amanxai.com/2024/10/21/document-analysis-using-llms-with-python/)  |  folder `15 Document Analysis - NLP/`
 
 **Reference approach.** extract the text of a long PDF (Google's Terms of Service), summarise it with `t5-small` (which reads only the first 512 tokens), and look at the output. No questions, no scores.
 
@@ -426,7 +426,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 16 - Music Recommendation System
-**Topic:** Recommendation Systems  |  [reference article](https://amanxai.com/2023/07/31/music-recommendation-system-using-python/)  |  folder `16/`
+**Topic:** Recommendation Systems  |  [reference article](https://amanxai.com/2023/07/31/music-recommendation-system-using-python/)  |  folder `16 Music Recommendation System - Recommendation Systems/`
 
 **Reference approach.** get a Spotify developer token, download the audio features of some tracks through the API, and recommend by similarity of those numbers. (Spotify removed access to audio-feature data for new apps in November 2024 and the method needs personal credentials, so I use a public snapshot of **114,000 Spotify tracks with the same audio features** from the Hugging Face hub.)
 
@@ -453,7 +453,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 17 - Hybrid Recommendation System
-**Topic:** Recommendation Systems  |  [reference article](https://amanxai.com/2023/06/05/hybrid-recommendation-system-using-python/)  |  folder `17/`
+**Topic:** Recommendation Systems  |  [reference article](https://amanxai.com/2023/06/05/hybrid-recommendation-system-using-python/)  |  folder `17 Hybrid Recommendation System - Recommendation Systems/`
 
 **Reference approach.** a fashion-products table; content-based filtering with TF-IDF text similarity, collaborative filtering with `surprise` SVD to predict ratings, and a weighted blend; no hold-out evaluation. (The `surprise` package does not install on this machine's Python version, and the fashion file's ratings cannot be validated, so I use the standard **MovieLens 100K** data: 100,000 real ratings by 943 users on 1,682 films.)
 
@@ -481,7 +481,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 18 - Market Basket Analysis
-**Topic:** Recommendation Systems  |  [reference article](https://amanxai.com/2023/10/16/market-basket-analysis-using-python/)  |  folder `18/`
+**Topic:** Recommendation Systems  |  [reference article](https://amanxai.com/2023/10/16/market-basket-analysis-using-python/)  |  folder `18 Market Basket Analysis - Recommendation Systems/`
 
 **Reference approach.** a small basket file, Apriori to find frequent itemsets, association rules ranked by support / confidence / lift, and a reading of the top rules as business insights.
 
@@ -508,7 +508,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 19 - Netflix Subscriptions Forecasting
-**Topic:** Time Series  |  [reference article](https://amanxai.com/2023/08/07/netflix-subscriptions-forecasting-using-python/)  |  folder `19/`
+**Topic:** Time Series  |  [reference article](https://amanxai.com/2023/08/07/netflix-subscriptions-forecasting-using-python/)  |  folder `19 Netflix Subscriptions Forecasting - Time Series/`
 
 **Reference approach.** read the ACF/PACF plots of the differenced series, pick ARIMA(1,1,1), fit on all 42 quarters and forecast the next 10 quarters. No test of the forecast.
 
@@ -536,7 +536,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 20 - Multivariate Time Series Forecasting
-**Topic:** Time Series  |  [reference article](https://amanxai.com/2024/03/11/multivariate-time-series-forecasting-using-python/)  |  folder `20/`
+**Topic:** Time Series  |  [reference article](https://amanxai.com/2024/03/11/multivariate-time-series-forecasting-using-python/)  |  folder `20 Multivariate Time Series Forecasting - Time Series/`
 
 **Reference approach.** four stock prices over about 3 months, differenced to make them stationary, a **Vector AutoRegression (VAR)** fitted and used to forecast; no comparison with anything simpler.
 
@@ -565,7 +565,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 21 - Stock Market Anomaly Detection
-**Topic:** Time Series  |  [reference article](https://amanxai.com/2024/04/08/stock-market-anomaly-detection-using-python/)  |  folder `21/`
+**Topic:** Time Series  |  [reference article](https://amanxai.com/2024/04/08/stock-market-anomaly-detection-using-python/)  |  folder `21 Stock Market Anomaly Detection - Time Series/`
 
 **Reference approach.** download one year of prices for five stocks, compute the **z-score of the adjusted close price and of the volume over the whole period** and call every point with |z| > 2 an anomaly.
 
@@ -593,7 +593,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 22 - Netflix Content Strategy Analysis
-**Topic:** Data Visualization  |  [reference article](https://amanxai.com/2024/09/30/netflix-content-strategy-analysis-with-python/)  |  folder `22/`
+**Topic:** Data Visualization  |  [reference article](https://amanxai.com/2024/09/30/netflix-content-strategy-analysis-with-python/)  |  folder `22 Netflix Content Strategy Analysis - Data Visualization/`
 
 **Reference approach.** load a table of 24,812 titles with viewing hours, group by content type, language and release month/season, draw bar and pie charts, and read strategy lessons off them.
 
@@ -621,7 +621,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 23 - Analyzing the Impact of Carbon Emissions
-**Topic:** Data Visualization  |  [reference article](https://amanxai.com/2024/11/25/carbon-emissions-impact-analysis-with-python/)  |  folder `23/`
+**Topic:** Data Visualization  |  [reference article](https://amanxai.com/2024/11/25/carbon-emissions-impact-analysis-with-python/)  |  folder `23 Carbon Emissions Impact Analysis - Data Visualization/`
 
 **Reference approach.** merge a monthly CO2 table with annual country temperatures, draw a correlation heat map (reported r = 0.96), fit trend lines, and simulate "what-if" scenarios with a regression.
 
@@ -649,7 +649,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 24 - Rainfall Trends in India Analysis
-**Topic:** Data Visualization  |  [reference article](https://amanxai.com/2024/11/18/rainfall-trends-in-india-analysis-with-python/)  |  folder `24/`
+**Topic:** Data Visualization  |  [reference article](https://amanxai.com/2024/11/18/rainfall-trends-in-india-analysis-with-python/)  |  folder `24 Rainfall Trends in India - Data Visualization/`
 
 **Reference approach.** plot annual rainfall and a 10-year moving average, read "no apparent long-term trend" off the picture, flag years beyond +/-1.5 standard deviations as drought / extreme-rain years, and apply an Isolation Forest.
 
@@ -678,7 +678,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 25 - Build an AI Agent to Master a Game
-**Topic:** AI Agents  |  [reference article](https://amanxai.com/2025/09/09/build-an-ai-agent-to-master-a-game-using-python/)  |  folder `25/`
+**Topic:** AI Agents  |  [reference article](https://amanxai.com/2025/09/09/build-an-ai-agent-to-master-a-game-using-python/)  |  folder `25 AI Agent to Master a Game - AI Agents/`
 
 **Reference approach.** a Deep Q-Network (DQN) in PyTorch trained on Gymnasium's CartPole-v1, shown by a learning curve and a rendered episode.
 
@@ -706,7 +706,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 26 - Multi-Agent Research Assistant with a Verifier
-**Topic:** AI Agents  |  [reference article](https://amanxai.com/2025/09/16/building-a-multi-agent-system-using-gemini-api/)  |  folder `26/`
+**Topic:** AI Agents  |  [reference article](https://amanxai.com/2025/09/16/building-a-multi-agent-system-using-gemini-api/)  |  folder `26 Multi-Agent Research Assistant - AI Agents/`
 
 **Reference approach.** three Gemini-powered agents in sequence: **Planner** (splits a topic into sub-topics), **Researcher** (writes about each), **Synthesizer** (merges into a report). The agents' output is judged by reading it.
 
@@ -734,7 +734,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 27 - End to End Chatbot
-**Topic:** AI Agents  |  [reference article](https://amanxai.com/2023/03/27/end-to-end-chatbot-using-python/)  |  folder `27/`
+**Topic:** AI Agents  |  [reference article](https://amanxai.com/2023/03/27/end-to-end-chatbot-using-python/)  |  folder `27 End to End Chatbot - AI Agents/`
 
 **Reference approach.** a small hand-written intents file (a few intents with example phrases), a TF-IDF + logistic-regression classifier, a canned response per intent, and a Streamlit chat page.
 
@@ -762,7 +762,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 28 - Predictive Keyboard Model (PyTorch LSTM)
-**Topic:** Deep Learning  |  [reference article](https://amanxai.com/2025/05/13/building-a-predictive-keyboard-model-with-pytorch/)  |  folder `28/`
+**Topic:** Deep Learning  |  [reference article](https://amanxai.com/2025/05/13/building-a-predictive-keyboard-model-with-pytorch/)  |  folder `28 Predictive Keyboard LSTM - Deep Learning/`
 
 **Reference approach.** a word-level LSTM in PyTorch trained on a small text, shown with a few example completions.
 
@@ -789,7 +789,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 29 - Generative AI Model from Scratch (mini GPT)
-**Topic:** Deep Learning  |  [reference article](https://amanxai.com/2024/08/05/generative-ai-model-from-scratch-with-python/)  |  folder `29/`
+**Topic:** Deep Learning  |  [reference article](https://amanxai.com/2024/08/05/generative-ai-model-from-scratch-with-python/)  |  folder `29 Mini GPT from Scratch - Deep Learning/`
 
 **Reference approach.** a small generative model built and run, with a text sample shown.
 
@@ -817,7 +817,7 @@ Written for revisiting the work later, not for a quick read. For each of the 30 
 ---
 
 ## 30 - Synthetic Records with GANs
-**Topic:** Deep Learning  |  [reference article](https://amanxai.com/2025/08/12/building-synthetic-medical-records-using-gans/)  |  folder `30/`
+**Topic:** Deep Learning  |  [reference article](https://amanxai.com/2025/08/12/building-synthetic-medical-records-using-gans/)  |  folder `30 Synthetic Medical Records GAN - Deep Learning/`
 
 **Reference approach.** train a GAN on a medical table and compare a few generated rows or distributions with the real ones.
 

@@ -1,6 +1,6 @@
 """Shared helpers for the Skill-enhancement Streamlit app.
 
-Models live in  <repo>/NN/model/   (local layout)  or  <space>/models/NN/  (Hugging Face Space layout).
+Models live in  <repo>/<NN name - topic>/model/   (local layout)  or  <space>/models/NN/  (Hugging Face Space layout).
 """
 import json, sys
 from pathlib import Path
@@ -11,8 +11,19 @@ APP_DIR = Path(__file__).resolve().parent
 REPO_URL = "https://github.com/Zla4gia/DataScienceProjects"
 
 
+def pdir(n: int):
+    """The project's folder in the repository: '<NN> <name> - <topic>' (or plain '<NN>' in older layouts); None on the Space."""
+    for p in sorted(ROOT.glob(f"{n:02d} *")) + [ROOT / f"{n:02d}"]:
+        if p.is_dir():
+            return p
+    return None
+
+
 def mdir(n: int) -> Path:
-    for p in (ROOT / f"{n:02d}" / "model", ROOT / "models" / f"{n:02d}", APP_DIR / "models" / f"{n:02d}"):
+    cands = [ROOT / "models" / f"{n:02d}", APP_DIR / "models" / f"{n:02d}"]
+    if pdir(n) is not None:
+        cands.insert(0, pdir(n) / "model")
+    for p in cands:
         if p.exists():
             return p
     raise FileNotFoundError(f"model folder for project {n:02d} not found")
@@ -39,4 +50,4 @@ def header(n: int, title: str, topic: str, finding: str, caveat: str):
 
 def footer(n: int, notebook: str):
     st.divider()
-    st.caption(f"Full analysis, charts and comparison with the reference article: `{n:02d}/{notebook}` in the repository ({REPO_URL}).")
+    st.caption(f"Full analysis, charts and comparison with the reference article: `{(pdir(n).name if pdir(n) else f"{n:02d}")}/{notebook}` in the repository ({REPO_URL}).")
