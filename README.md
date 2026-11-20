@@ -4,13 +4,6 @@ Thirty practice projects, three per topic across ten topics (regression, classif
 
 Every folder holds an executed notebook (outputs included), a README generated from the notebook, and a `model/` folder with the trained models. One multipage Streamlit app (`app/`) lets you try the saved models.
 
-> **Status: reviewed, ready to publish.** The GitHub repository and Hugging Face Space links will be added here once they exist.
-
-## Where to start
-
-* [STUDY_GUIDE.md](STUDY_GUIDE.md): per project, the reference's approach vs mine, the lessons, the limits and an exercise to try before reading my code.
-* Each folder's README.md and notebook for the details; the Streamlit app to try the saved models.
-
 ## How to read these projects
 
 The references are mostly short tutorials: build a model, print one score, stop. I kept their *question* and added the checks a tutorial leaves out: a simple baseline, an honest train/test design (for example forward-in-time splits), uncertainty intervals, a null test where one is possible, and a limits section. Several projects ended with a finding that differs from the headline one in the tutorial: where a baseline matched the model, where the reference's data turned out to be synthetic or duplicated, and where a leaked split inflated the score. The one-line findings below are taken from the notebooks' own summaries; the exact numbers and the caveats are in each notebook.
